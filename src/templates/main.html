@@ -1,0 +1,15 @@
+{% extends "index.html" %}
+{% block body %}
+<div>
+    <form action="{{ url_for('registration') }}" method="get">
+        <div>
+            <button type="submit">Регистрация</button>
+        </div>
+    </form>
+    <form action="{{ url_for('download') }}" method="post">
+        <div>
+            <button type="submit">Скчать Little Hero!</button>
+        </div>
+    </form>
+</div>
+{% endblock %}
