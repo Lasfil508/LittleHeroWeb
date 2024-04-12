@@ -210,3 +210,325 @@
 2024-04-08 21:44:59,089 INFO werkzeug  * Restarting with stat
 2024-04-08 21:44:59,865 WARNING werkzeug  * Debugger is active!
 2024-04-08 21:44:59,870 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 00:02:33,134 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 00:02:33,135 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 00:02:33,136 INFO werkzeug  * Restarting with stat
+2024-04-13 00:02:33,613 WARNING werkzeug  * Debugger is active!
+2024-04-13 00:02:33,626 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 00:02:38,688 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:02:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-04-13 00:02:40,091 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:02:40] "GET /registration HTTP/1.1" 200 -
+2024-04-13 00:02:47,717 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:02:47] "GET / HTTP/1.1" 200 -
+2024-04-13 00:02:53,540 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 00:02:53,540 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 00:02:53,542 INFO werkzeug  * Restarting with stat
+2024-04-13 00:02:55,035 WARNING werkzeug  * Debugger is active!
+2024-04-13 00:02:55,039 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 00:02:55,373 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:02:55] "GET / HTTP/1.1" 200 -
+2024-04-13 00:02:56,371 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:02:56] "GET / HTTP/1.1" 200 -
+2024-04-13 00:02:57,101 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:02:57] "GET / HTTP/1.1" 200 -
+2024-04-13 00:03:43,818 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 00:03:43,819 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 00:03:43,821 INFO werkzeug  * Restarting with stat
+2024-04-13 00:03:44,352 WARNING werkzeug  * Debugger is active!
+2024-04-13 00:03:44,355 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 00:03:46,215 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:03:46] "GET / HTTP/1.1" 200 -
+2024-04-13 00:03:46,413 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:03:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-04-13 00:03:54,290 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:03:54] "GET /registration HTTP/1.1" 200 -
+2024-04-13 00:04:14,771 ERROR root Sqlite3 error: near "@gmail": syntax error
+2024-04-13 00:04:14,772 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:04:14] "POST /registration HTTP/1.1" 200 -
+2024-04-13 00:04:42,246 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 00:04:42,246 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 00:04:42,248 INFO werkzeug  * Restarting with stat
+2024-04-13 00:04:42,880 WARNING werkzeug  * Debugger is active!
+2024-04-13 00:04:42,884 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 00:04:53,277 ERROR root Sqlite3 error: near "@gmail": syntax error
+2024-04-13 00:04:53,286 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:04:53] "POST /registration HTTP/1.1" 200 -
+2024-04-13 00:08:11,938 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\DataBaseManager.py', reloading
+2024-04-13 00:08:11,982 INFO werkzeug  * Restarting with stat
+2024-04-13 00:08:12,419 WARNING werkzeug  * Debugger is active!
+2024-04-13 00:08:12,422 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 00:08:13,235 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 00:08:13,235 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 00:08:13,237 INFO werkzeug  * Restarting with stat
+2024-04-13 00:08:14,576 WARNING werkzeug  * Debugger is active!
+2024-04-13 00:08:14,581 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 00:08:21,354 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:08:21] "GET / HTTP/1.1" 200 -
+2024-04-13 00:08:21,802 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:08:21] "GET / HTTP/1.1" 200 -
+2024-04-13 00:08:27,691 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 00:08:27,692 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 00:08:27,698 INFO werkzeug  * Restarting with stat
+2024-04-13 00:08:28,344 WARNING werkzeug  * Debugger is active!
+2024-04-13 00:08:28,348 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 00:08:29,081 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:08:29] "GET / HTTP/1.1" 200 -
+2024-04-13 00:08:29,895 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:08:29] "GET /registration HTTP/1.1" 200 -
+2024-04-13 00:08:40,294 ERROR root Sqlite3 error: test, test@gmail.com, test, near "@gmail": syntax error
+2024-04-13 00:08:40,295 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:08:40] "POST /registration HTTP/1.1" 200 -
+2024-04-13 00:10:31,391 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-13 00:10:31,460 INFO werkzeug  * Restarting with stat
+2024-04-13 00:10:32,074 WARNING werkzeug  * Debugger is active!
+2024-04-13 00:10:32,080 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 00:11:58,582 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 00:11:58,582 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 00:11:58,584 INFO werkzeug  * Restarting with stat
+2024-04-13 00:11:59,068 WARNING werkzeug  * Debugger is active!
+2024-04-13 00:11:59,072 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 00:12:08,154 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:12:08] "GET / HTTP/1.1" 200 -
+2024-04-13 00:12:08,473 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:12:08] "GET / HTTP/1.1" 200 -
+2024-04-13 00:12:09,906 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:12:09] "GET /registration HTTP/1.1" 200 -
+2024-04-13 00:12:21,339 ERROR root Sqlite3 error: test, test@gmail.com, scrypt:32768:8:1$027MGbApOABO9FGQ$1f5494dfcce819047f077b2f4b7865202e2bf57e292260d1f55aa021663dded9fc555d8f97016169e8262a66ae5225b19983f60bd5422b748c8e60dac6b9fd69, near ":32768": syntax error
+2024-04-13 00:12:21,340 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:12:21] "POST /registration HTTP/1.1" 200 -
+2024-04-13 00:14:57,268 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 00:14:57,268 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 00:14:57,270 INFO werkzeug  * Restarting with stat
+2024-04-13 00:14:57,663 WARNING werkzeug  * Debugger is active!
+2024-04-13 00:14:57,672 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 00:15:00,471 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:15:00] "GET / HTTP/1.1" 200 -
+2024-04-13 00:15:03,050 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:15:03] "GET /registration HTTP/1.1" 200 -
+2024-04-13 00:15:14,766 ERROR root Sqlite3 error: test, test@gmail.com, scrypt:32768:8:1$nmQQetFDXxV9k3w5$ac9d5997f0f01c2c5fd66faf3e2f5959d12bff988f381c8f51ae6e27eb7efa4971f8f92aa7a087faa6422a0c4089b025088f1643255c5b1ad9e4177fb219b91c, near ":32768": syntax error
+2024-04-13 00:15:14,768 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:15:14] "POST /registration HTTP/1.1" 200 -
+2024-04-13 00:16:38,405 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\te.py', reloading
+2024-04-13 00:16:38,442 INFO werkzeug  * Restarting with stat
+2024-04-13 00:16:40,098 WARNING werkzeug  * Debugger is active!
+2024-04-13 00:16:40,157 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 00:16:54,611 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\te.py', reloading
+2024-04-13 00:16:54,657 INFO werkzeug  * Restarting with stat
+2024-04-13 00:16:55,486 WARNING werkzeug  * Debugger is active!
+2024-04-13 00:16:55,499 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 00:17:14,433 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\te.py', reloading
+2024-04-13 00:17:14,671 INFO werkzeug  * Restarting with stat
+2024-04-13 00:17:15,241 WARNING werkzeug  * Debugger is active!
+2024-04-13 00:17:15,245 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 00:17:18,347 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\te.py', reloading
+2024-04-13 00:17:18,388 INFO werkzeug  * Restarting with stat
+2024-04-13 00:17:18,789 WARNING werkzeug  * Debugger is active!
+2024-04-13 00:17:18,793 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 00:17:56,035 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\te.py', reloading
+2024-04-13 00:17:56,075 INFO werkzeug  * Restarting with stat
+2024-04-13 00:17:56,485 WARNING werkzeug  * Debugger is active!
+2024-04-13 00:17:56,489 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 00:18:33,440 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 00:18:33,440 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 00:18:33,441 INFO werkzeug  * Restarting with stat
+2024-04-13 00:18:33,875 WARNING werkzeug  * Debugger is active!
+2024-04-13 00:18:33,879 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 00:22:45,054 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 00:22:45,054 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 00:22:45,055 INFO werkzeug  * Restarting with stat
+2024-04-13 00:22:45,432 WARNING werkzeug  * Debugger is active!
+2024-04-13 00:22:45,436 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 00:22:50,187 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:22:50] "GET / HTTP/1.1" 200 -
+2024-04-13 00:22:51,074 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:22:51] "GET /registration HTTP/1.1" 200 -
+2024-04-13 00:22:59,843 INFO root User register: test, scrypt:32768:8:1$zhc6jjJ6qm2CSsCI$decf4309ec143f901c5bf55189159660c135fd885b2d27301143aa8dc5812aa15acb89d27cc01ed6fed5d528074428850db4b3b0f06258b2d3472a11b192857c, test@gmail.com
+2024-04-13 00:22:59,844 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:22:59] "POST /registration HTTP/1.1" 200 -
+2024-04-13 00:24:39,814 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\DataBaseManager.py', reloading
+2024-04-13 00:24:39,866 INFO werkzeug  * Restarting with stat
+2024-04-13 00:24:40,822 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 00:24:40,822 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 00:24:40,824 INFO werkzeug  * Restarting with stat
+2024-04-13 00:24:41,926 WARNING werkzeug  * Debugger is active!
+2024-04-13 00:24:41,937 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 00:24:53,024 INFO root User register: test, scrypt:32768:8:1$oqxJUMRQxvoCfEnH$46ecee1ecc9561ede2ac41bb6ff71c4e7b78277d6cdfc1875f15fd7035f1a16502af1a974733540c881aba27fd037221f5c1de12c22014fd87310f10314403d1, test@gmail.com
+2024-04-13 00:24:53,033 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:24:53] "POST /registration HTTP/1.1" 200 -
+2024-04-13 00:25:24,772 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-13 00:25:24,926 INFO werkzeug  * Restarting with stat
+2024-04-13 00:25:27,558 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 00:25:27,559 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 00:25:27,575 INFO werkzeug  * Restarting with stat
+2024-04-13 00:25:28,731 WARNING werkzeug  * Debugger is active!
+2024-04-13 00:25:28,743 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 00:25:28,817 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:25:28] "GET / HTTP/1.1" 200 -
+2024-04-13 00:25:34,497 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 00:25:34,499 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 00:25:34,501 INFO werkzeug  * Restarting with stat
+2024-04-13 00:25:35,565 WARNING werkzeug  * Debugger is active!
+2024-04-13 00:25:35,571 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 00:25:35,884 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:25:35] "GET /registration HTTP/1.1" 200 -
+2024-04-13 00:25:45,438 INFO root User register: test, scrypt:32768:8:1$voPvLeRX4wdrcdlJ$d15b82c1a42301133264141936eb486b7e265e764b090f65419fe3a8a51930acc543b6365829a39663ce402479a3211fa5e2b71fae9205165d0619ebf782583e, test@gmail.com
+2024-04-13 00:25:45,438 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:25:45] "POST /registration HTTP/1.1" 200 -
+2024-04-13 00:26:11,870 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\DataBaseManager.py', reloading
+2024-04-13 00:26:12,536 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 00:26:12,537 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 00:26:12,538 INFO werkzeug  * Restarting with stat
+2024-04-13 00:26:13,467 WARNING werkzeug  * Debugger is active!
+2024-04-13 00:26:13,472 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 00:26:27,572 INFO root User register: test, scrypt:32768:8:1$AOA22mI7ihIpi5rU$57402894abc18c969be0d0b699ccb2ae46c1d5a949acf6ca2642046cfaf8834a810083b022e4969cd94f500296f62d8857df58c96716606c57f314e938225542, test@gmail.com
+2024-04-13 00:26:27,572 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:26:27] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-04-13 00:26:27,587 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:26:27] "GET / HTTP/1.1" 200 -
+2024-04-13 00:26:44,546 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-13 00:26:44,589 INFO werkzeug  * Restarting with stat
+2024-04-13 00:26:45,145 WARNING werkzeug  * Debugger is active!
+2024-04-13 00:26:45,149 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 00:27:45,503 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 00:27:45,503 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 00:27:45,505 INFO werkzeug  * Restarting with stat
+2024-04-13 00:27:46,144 WARNING werkzeug  * Debugger is active!
+2024-04-13 00:27:46,150 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 00:27:47,366 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:27:47] "GET / HTTP/1.1" 200 -
+2024-04-13 00:27:48,535 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:27:48] "GET /registration HTTP/1.1" 200 -
+2024-04-13 00:27:53,881 INFO root User register: test, scrypt:32768:8:1$9KqLwgT2vMOhCf3c$639d3ca851061e55036c2b999762062cf3a71d83258de8aa900dc713a8d5a974bd67ab6f64c2e353fdee2c4548cb3d0c80bc029bb491eeb1dd39bc509cc8a2bc, test@gmail.com
+2024-04-13 00:27:53,882 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:27:53] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-04-13 00:27:53,891 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:27:53] "GET / HTTP/1.1" 200 -
+2024-04-13 00:27:59,654 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:27:59] "GET /login HTTP/1.1" 200 -
+2024-04-13 00:28:02,368 ERROR root Sqlite3 error: near "@gmail": syntax error
+2024-04-13 00:28:02,372 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:28:02] "POST /login HTTP/1.1" 200 -
+2024-04-13 00:29:25,103 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 00:29:25,103 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 00:29:25,105 INFO werkzeug  * Restarting with stat
+2024-04-13 00:29:26,041 WARNING werkzeug  * Debugger is active!
+2024-04-13 00:29:26,048 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 00:29:30,486 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:29:30] "GET / HTTP/1.1" 200 -
+2024-04-13 00:29:31,365 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:29:31] "GET /login HTTP/1.1" 200 -
+2024-04-13 00:29:52,834 ERROR root Sqlite3 error: near "@gmail": syntax error
+2024-04-13 00:29:52,835 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:29:52] "POST /login HTTP/1.1" 200 -
+2024-04-13 00:30:10,394 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\DataBaseManager.py', reloading
+2024-04-13 00:30:10,533 INFO werkzeug  * Restarting with stat
+2024-04-13 00:30:11,595 WARNING werkzeug  * Debugger is active!
+2024-04-13 00:30:11,604 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 00:30:33,340 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\DataBaseManager.py', reloading
+2024-04-13 00:30:33,395 INFO werkzeug  * Restarting with stat
+2024-04-13 00:30:53,639 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 00:30:53,639 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 00:30:53,641 INFO werkzeug  * Restarting with stat
+2024-04-13 00:30:54,071 WARNING werkzeug  * Debugger is active!
+2024-04-13 00:30:54,075 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 00:30:58,233 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:30:58] "GET / HTTP/1.1" 200 -
+2024-04-13 00:30:58,996 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:30:58] "GET /login HTTP/1.1" 200 -
+2024-04-13 00:31:07,916 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:31:07] "POST /login HTTP/1.1" 200 -
+2024-04-13 00:32:29,769 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 00:32:29,770 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 00:32:29,771 INFO werkzeug  * Restarting with stat
+2024-04-13 00:32:30,198 WARNING werkzeug  * Debugger is active!
+2024-04-13 00:32:30,202 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 00:32:32,784 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:32:32] "GET / HTTP/1.1" 200 -
+2024-04-13 00:32:33,533 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:32:33] "GET /login HTTP/1.1" 200 -
+2024-04-13 00:32:41,419 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:32:41] "POST /login HTTP/1.1" 200 -
+2024-04-13 00:33:19,813 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-13 00:33:19,864 INFO werkzeug  * Restarting with stat
+2024-04-13 00:33:20,472 WARNING werkzeug  * Debugger is active!
+2024-04-13 00:33:20,476 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 00:33:22,346 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 00:33:22,347 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 00:33:22,350 INFO werkzeug  * Restarting with stat
+2024-04-13 00:33:22,935 WARNING werkzeug  * Debugger is active!
+2024-04-13 00:33:22,942 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 00:33:23,011 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:33:23] "GET / HTTP/1.1" 200 -
+2024-04-13 00:33:24,251 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:33:24] "GET /login HTTP/1.1" 200 -
+2024-04-13 00:33:37,405 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:33:37] "POST /login HTTP/1.1" 200 -
+2024-04-13 00:34:19,527 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 00:34:19,527 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 00:34:19,530 INFO werkzeug  * Restarting with stat
+2024-04-13 00:34:20,611 WARNING werkzeug  * Debugger is active!
+2024-04-13 00:34:20,617 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 00:34:20,786 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:34:20] "GET / HTTP/1.1" 200 -
+2024-04-13 00:34:21,521 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:34:21] "GET /login HTTP/1.1" 200 -
+2024-04-13 00:34:28,499 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:34:28] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-04-13 00:34:28,704 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:34:28] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-13 00:34:28,711 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:34:28] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-13 00:34:28,765 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:34:28] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-13 00:34:28,973 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:34:28] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 00:35:23,068 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 00:35:23,069 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 00:35:23,075 INFO werkzeug  * Restarting with stat
+2024-04-13 00:35:24,398 WARNING werkzeug  * Debugger is active!
+2024-04-13 00:35:24,404 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 00:35:30,427 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:35:30] "GET / HTTP/1.1" 200 -
+2024-04-13 00:35:31,470 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:35:31] "GET /login HTTP/1.1" 200 -
+2024-04-13 00:35:39,266 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:35:39] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-04-13 00:35:39,282 DEBUG root User load: 5
+2024-04-13 00:35:39,284 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 00:35:39] "GET / HTTP/1.1" 200 -
+2024-04-13 00:35:56,408 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-13 00:35:56,507 INFO werkzeug  * Restarting with stat
+2024-04-13 00:35:57,287 WARNING werkzeug  * Debugger is active!
+2024-04-13 00:35:57,292 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 00:38:25,143 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-13 00:38:25,327 INFO werkzeug  * Restarting with stat
+2024-04-13 00:38:26,847 WARNING werkzeug  * Debugger is active!
+2024-04-13 00:38:26,860 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:19:01,090 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 02:19:01,090 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 02:19:01,093 INFO werkzeug  * Restarting with stat
+2024-04-13 02:19:01,705 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:19:01,713 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:19:03,351 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:19:03] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-04-13 02:19:03,592 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:19:03] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-13 02:19:03,681 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:19:03] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-13 02:19:03,841 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:19:03] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:19:04,183 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:19:04] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:19:04,491 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:19:04] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-04-13 02:19:04,526 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:19:04] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-13 02:19:04,544 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:19:04] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-13 02:19:04,580 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:19:04] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:19:04,799 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:19:04] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:19:50,207 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 02:19:50,207 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 02:19:50,210 INFO werkzeug  * Restarting with stat
+2024-04-13 02:19:50,854 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:19:50,858 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:19:51,885 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:19:51] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-04-13 02:19:52,034 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:19:52] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-13 02:19:52,041 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:19:52] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-13 02:19:52,067 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:19:52] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:19:52,298 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:19:52] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:20:02,483 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 02:20:02,484 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 02:20:02,487 INFO werkzeug  * Restarting with stat
+2024-04-13 02:20:02,970 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:20:02,974 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:20:03,372 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:20:03] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-04-13 02:20:03,506 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:20:03] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-13 02:20:03,517 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:20:03] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-13 02:20:03,540 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:20:03] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:20:03,735 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:20:03] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:22:51,162 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 02:22:51,168 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 02:22:51,180 INFO werkzeug  * Restarting with stat
+2024-04-13 02:22:52,145 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:22:52,154 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:22:57,305 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:22:57] "GET / HTTP/1.1" 200 -
+2024-04-13 02:22:57,498 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:22:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-04-13 02:23:00,927 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:23:00] "[31m[1mGET /logout HTTP/1.1[0m" 401 -
+2024-04-13 02:23:05,520 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:23:05] "GET / HTTP/1.1" 200 -
+2024-04-13 02:23:19,276 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 02:23:19,276 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 02:23:19,277 INFO werkzeug  * Restarting with stat
+2024-04-13 02:23:19,732 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:23:19,736 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:23:20,278 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:23:20] "GET / HTTP/1.1" 200 -
+2024-04-13 02:23:20,993 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:23:20] "GET / HTTP/1.1" 200 -
+2024-04-13 02:24:41,292 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 02:24:41,292 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 02:24:41,296 INFO werkzeug  * Restarting with stat
+2024-04-13 02:24:41,759 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:24:41,763 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:24:43,237 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:24:43] "GET / HTTP/1.1" 200 -
+2024-04-13 02:25:50,635 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-13 02:25:50,714 INFO werkzeug  * Restarting with stat
+2024-04-13 02:25:51,415 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:25:51,422 INFO werkzeug  * Debugger PIN: 127-752-769

@@ -8,15 +8,15 @@ class DBManager:
         self.__db = db
         self.__cur = db.cursor()
 
-    def addUser(self, nickname, login, password, email):
+    def addUser(self, nickname, password, email):
         try:
-            self.__cur.execute(f'INSERT INTO Users (nickname, login, password, email, date_joined) VALUES ({nickname}, {login}, {password}, {email}, {datetime.now()})')
-            logging.info(f'User register: {nickname}, {login}, {password}, {email}')
+            self.__cur.execute(f'INSERT INTO Users VALUES(NULL, ?, ?, ?, ?)', (nickname, password, email, datetime.now()))
+            self.__db.commit()
+            logging.info(f'User register: {nickname}, {password}, {email}')
             return True
         except sqlite3.Error as e:
-            logging.error(f'Sqlite3 error: {e}')
-        finally:
-            return False
+            logging.error(f'Sqlite3 error: {nickname}, {email}, {password}, {e}')
+        return False
 
     def getUser(self, user_id):
         try:
@@ -30,3 +30,15 @@ class DBManager:
             logging.error(f"Sqlite3 error: {e}")
         finally:
             return False
+
+    def getUserByEmail(self, email):
+        try:
+            self.__cur.execute(f"SELECT * FROM Users WHERE email = '{email}' LIMIT 1")
+            res = self.__cur.fetchone()
+            if not res:
+                logging.error(f"User don't found: {email}")
+                return False
+            return res
+        except sqlite3.Error as e:
+            logging.error(f"Sqlite3 error: {e}")
+        return False

@@ -6,18 +6,14 @@
             <label for="nickname">Nickname</label>
             <input type="text" required id="nickname" name="nickname">
         </div>
-        <div>
-            <label for="login">Login</label>
-            <input type="text" required id="login" name="login">
+            <label for="email">Email</label>
+            <input type="email" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" required id="email" name="email">
         </div>
         <div>
             <label for="password">Password</label>
             <input type="password" required id="password" name="password">
         </div>
         <div>
-            <label for="email">Email</label>
-            <input type="email" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" required id="email" name="email">
-        </div>
         <div>
             {% if errors %}
                 <label for="reg">Произошла какая-то ошибка, мы уже работает над этим!</label>

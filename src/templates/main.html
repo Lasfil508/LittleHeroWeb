@@ -1,11 +1,24 @@
 {% extends "index.html" %}
 {% block body %}
 <div>
-    <form action="{{ url_for('registration') }}" method="get">
-        <div>
-            <button type="submit">Регистрация</button>
-        </div>
-    </form>
+    {% if not user %}
+        <form action="{{ url_for('registration') }}" method="get">
+            <div>
+                <button type="submit">Регистрация</button>
+            </div>
+        </form>
+        <form action="{{ url_for('login') }}" method="get">
+            <div>
+                <button type="submit">Войти</button>
+            </div>
+        </form>
+    {% else %}
+        <form action="{{ url_for('logout') }}" method="get">
+            <div>
+                <button type="submit">Выйти</button>
+            </div>
+        </form>
+    {% endif %}
     <form action="{{ url_for('download') }}" method="post">
         <div>
             <button type="submit">Скчать Little Hero!</button>

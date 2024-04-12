@@ -1,5 +1,5 @@
-from flask import Flask, render_template, request, redirect, url_for, send_file, g
-from flask_login import LoginManager
+from flask import Flask, render_template, request, redirect, url_for, send_file, g, flash
+from flask_login import LoginManager, login_user, login_required, logout_user, current_user
 from UserLogin import UserLogin
 from DataBaseManager import DBManager
 from werkzeug.security import generate_password_hash, check_password_hash
@@ -8,7 +8,7 @@ import sqlite3
 from datetime import datetime
 import logging
 
-logging.basicConfig(level=logging.INFO, filename='data/log.log',
+logging.basicConfig(level=logging.DEBUG, filename='data/log.log',
                     format='%(asctime)s %(levelname)s %(name)s %(message)s')
 
 DATABASE = '/data/LittleHeroDB.db'
@@ -40,7 +40,7 @@ def get_db():
 
 
 @app.teardown_appcontext
-def close_db():
+def close_db(e):
     if hasattr(g, 'link_db'):
         g.link_db.close()
 
@@ -55,7 +55,7 @@ def before_requests():
 
 @app.route('/')
 def main_page():
-    return render_template('main.html')
+    return render_template('main.html', user=current_user)
 
 
 @app.route('/download', methods=['POST'])
@@ -70,17 +70,16 @@ def registration():
         form = request.form.to_dict()
         if form:
             nickname = form['nickname']
-            login = form['login']
-            password = form['password']
+            password = generate_password_hash(form['password'])
             email = form['email']
-            result = dbase.addUser(nickname, login, password, email)
+            result = dbase.addUser(nickname, password, email)
 
             if not result:
                 return render_template('registration.html', errors=True)
             else:
                 return redirect(url_for('main_page'))
 
-    return render_template('registration.html')
+    return render_template('registration.html', user=current_user)
 
 
 @app.route('/login', methods=['GET', 'POST'])
@@ -88,9 +87,29 @@ def login():
     if request.method == 'POST':
         form = request.form.to_dict()
         if form:
-            login = form['login']
+            email = form['email']
             password = form['password']
-    return render_template('login.html')
+            user = dbase.getUserByEmail(email)
+            if user and check_password_hash(user['password'], password):
+                userlogin = UserLogin().create(user)
+                login_user(userlogin)
+                return redirect(url_for('main_page'))
+        flash('Неверен пароль или логин', 'error')
+    return render_template('login.html', user=current_user)
+
+
+@app.route('/logout')
+@login_required
+def logout():
+    logout_user()
+    flash('Вы вышли из аккаунта!', 'success')
+    return redirect(url_for('main_page'))
+
+
+@app.route('/profile')
+@login_required
+def profile():
+    return render_template('profile.html', user=current_user)
 
 
 if __name__ == '__main__':
