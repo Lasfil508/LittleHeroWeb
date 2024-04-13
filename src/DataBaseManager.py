@@ -28,8 +28,7 @@ class DBManager:
             return res
         except sqlite3.Error as e:
             logging.error(f"Sqlite3 error: {e}")
-        finally:
-            return False
+        return False
 
     def getUserByEmail(self, email):
         try:

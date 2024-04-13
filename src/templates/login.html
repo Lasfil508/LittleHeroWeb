@@ -11,11 +11,15 @@
             <input type="password" required id="password" name="password">
         </div>
         <div>
+            <label for="remainme">Запомнить меня</label>
+            <input type="checkbox" id="remainme" name="remainme"/>
+        </div>
+        <div>
             {% if errors %}
                 <label for="log">Произошла какая-то ошибка, мы уже работает над этим!</label>
             {% endif %}
             {% with messages = get_flashed_messages() %}
-            {% if messages %}
+                {% if messages %}
                   {% for message in messages %}
                      {{ message }}
                   {% endfor %}

@@ -532,3 +532,516 @@
 2024-04-13 02:25:50,714 INFO werkzeug  * Restarting with stat
 2024-04-13 02:25:51,415 WARNING werkzeug  * Debugger is active!
 2024-04-13 02:25:51,422 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:27:05,531 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\UserLogin.py', reloading
+2024-04-13 02:27:05,576 INFO werkzeug  * Restarting with stat
+2024-04-13 02:27:06,016 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:27:06,020 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:27:08,086 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\UserLogin.py', reloading
+2024-04-13 02:27:08,119 INFO werkzeug  * Restarting with stat
+2024-04-13 02:27:08,614 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:27:08,618 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:27:28,094 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\UserLogin.py', reloading
+2024-04-13 02:27:28,135 INFO werkzeug  * Restarting with stat
+2024-04-13 02:27:28,640 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:27:28,644 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:29:09,528 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-13 02:29:09,599 INFO werkzeug  * Restarting with stat
+2024-04-13 02:29:10,127 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:29:10,130 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:29:11,509 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 02:29:11,509 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 02:29:11,515 INFO werkzeug  * Restarting with stat
+2024-04-13 02:29:12,599 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:29:12,616 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:29:13,365 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:29:13] "GET / HTTP/1.1" 200 -
+2024-04-13 02:29:49,576 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 02:29:49,576 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 02:29:49,580 INFO werkzeug  * Restarting with stat
+2024-04-13 02:29:50,554 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:29:50,558 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:29:51,110 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:29:51] "GET / HTTP/1.1" 200 -
+2024-04-13 02:29:54,951 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:29:54] "GET /login HTTP/1.1" 200 -
+2024-04-13 02:30:00,381 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:30:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-04-13 02:30:00,389 DEBUG root User load: 5
+2024-04-13 02:30:00,390 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:30:00] "GET / HTTP/1.1" 200 -
+2024-04-13 02:30:02,336 DEBUG root User load: 5
+2024-04-13 02:30:02,345 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:30:02] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-04-13 02:30:02,353 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:30:02] "GET / HTTP/1.1" 200 -
+2024-04-13 02:33:30,858 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 02:33:30,858 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 02:33:30,863 INFO werkzeug  * Restarting with stat
+2024-04-13 02:33:31,599 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:33:31,610 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:33:44,960 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:33:44] "GET /login HTTP/1.1" 200 -
+2024-04-13 02:33:46,507 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:33:46] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-04-13 02:33:46,514 DEBUG root User load: 5
+2024-04-13 02:33:46,518 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:33:46] "GET / HTTP/1.1" 200 -
+2024-04-13 02:35:06,077 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-13 02:35:06,126 INFO werkzeug  * Restarting with stat
+2024-04-13 02:35:06,577 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:35:06,580 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:35:13,899 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 02:35:13,899 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 02:35:13,907 INFO werkzeug  * Restarting with stat
+2024-04-13 02:35:14,962 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:35:14,968 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:35:18,036 DEBUG root User load: 5
+2024-04-13 02:35:18,047 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:35:18] "GET / HTTP/1.1" 200 -
+2024-04-13 02:35:19,380 DEBUG root User load: 5
+2024-04-13 02:35:19,381 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:35:19] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-04-13 02:35:19,397 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:35:19] "GET /login HTTP/1.1" 200 -
+2024-04-13 02:35:22,165 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:35:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-04-13 02:35:22,172 DEBUG root User load: 5
+2024-04-13 02:35:22,173 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:35:22] "GET / HTTP/1.1" 200 -
+2024-04-13 02:35:24,354 DEBUG root User load: 5
+2024-04-13 02:35:24,355 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:35:24] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-04-13 02:35:24,364 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:35:24] "GET /login HTTP/1.1" 200 -
+2024-04-13 02:35:25,714 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:35:25] "GET / HTTP/1.1" 200 -
+2024-04-13 02:36:38,109 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-13 02:36:38,169 INFO werkzeug  * Restarting with stat
+2024-04-13 02:36:38,580 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:36:38,583 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:36:42,733 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-13 02:36:42,779 INFO werkzeug  * Restarting with stat
+2024-04-13 02:36:58,949 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 02:36:58,950 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 02:36:58,951 INFO werkzeug  * Restarting with stat
+2024-04-13 02:36:59,704 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:36:59,711 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:37:02,534 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:37:02] "GET /login HTTP/1.1" 200 -
+2024-04-13 02:37:05,227 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:37:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-04-13 02:37:05,241 DEBUG root User load: 5
+2024-04-13 02:37:05,246 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:37:05] "GET / HTTP/1.1" 200 -
+2024-04-13 02:37:16,119 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:37:16] "GET / HTTP/1.1" 200 -
+2024-04-13 02:37:16,571 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:37:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-04-13 02:37:24,883 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-13 02:37:24,973 INFO werkzeug  * Restarting with stat
+2024-04-13 02:37:26,028 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:37:26,033 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:37:33,307 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-13 02:37:33,435 INFO werkzeug  * Restarting with stat
+2024-04-13 02:37:34,235 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:37:34,239 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:37:35,611 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 02:37:35,611 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 02:37:35,614 INFO werkzeug  * Restarting with stat
+2024-04-13 02:37:36,612 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:37:36,615 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:37:37,390 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:37:37] "GET /login HTTP/1.1" 200 -
+2024-04-13 02:37:39,297 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:37:39] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-04-13 02:37:39,308 DEBUG root User load: 5
+2024-04-13 02:37:39,309 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:37:39] "GET / HTTP/1.1" 200 -
+2024-04-13 02:37:48,462 DEBUG root User load: 5
+2024-04-13 02:37:48,464 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:37:48] "GET / HTTP/1.1" 200 -
+2024-04-13 02:37:48,903 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:37:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-04-13 02:37:50,145 DEBUG root User load: 5
+2024-04-13 02:37:50,146 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:37:50] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-04-13 02:37:50,153 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:37:50] "GET /login HTTP/1.1" 200 -
+2024-04-13 02:39:10,576 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 02:39:10,576 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 02:39:10,579 INFO werkzeug  * Restarting with stat
+2024-04-13 02:39:11,480 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:39:11,484 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:39:15,982 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:39:15] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-04-13 02:39:15,998 DEBUG root User load: 5
+2024-04-13 02:39:16,000 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:39:16] "GET / HTTP/1.1" 200 -
+2024-04-13 02:39:17,373 DEBUG root User load: 5
+2024-04-13 02:39:17,421 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:39:17] "[35m[1mGET /profile HTTP/1.1[0m" 500 -
+2024-04-13 02:39:17,545 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:39:17] "GET /profile?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-13 02:39:17,546 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:39:17] "GET /profile?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-13 02:39:17,599 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:39:17] "GET /profile?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-13 02:39:17,815 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:39:17] "[36mGET /profile?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:41:16,827 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 02:41:16,827 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 02:41:16,829 INFO werkzeug  * Restarting with stat
+2024-04-13 02:41:17,358 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:41:17,399 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:41:19,105 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:41:19] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-04-13 02:41:19,266 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:41:19] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-13 02:41:19,267 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:41:19] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-13 02:41:19,310 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:41:19] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:41:19,629 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:41:19] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:41:38,811 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 02:41:38,811 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 02:41:38,813 INFO werkzeug  * Restarting with stat
+2024-04-13 02:41:39,657 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:41:39,661 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:41:40,294 DEBUG root User load: 5
+2024-04-13 02:41:40,323 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:41:40] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-04-13 02:41:40,452 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:41:40] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-13 02:41:40,453 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:41:40] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-13 02:41:40,486 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:41:40] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:41:40,686 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:41:40] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:42:16,739 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 02:42:16,740 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 02:42:16,741 INFO werkzeug  * Restarting with stat
+2024-04-13 02:42:17,462 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:42:17,469 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:42:18,507 DEBUG root User load: 5
+2024-04-13 02:42:18,535 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:42:18] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-04-13 02:42:18,662 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:42:18] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-13 02:42:18,673 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:42:18] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-13 02:42:18,695 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:42:18] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:42:19,118 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:42:19] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:44:21,137 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 02:44:21,139 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 02:44:21,144 INFO werkzeug  * Restarting with stat
+2024-04-13 02:44:21,690 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:44:21,694 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:44:23,956 DEBUG root User load: 5
+2024-04-13 02:44:23,980 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:44:23] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-04-13 02:44:24,115 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:44:24] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-13 02:44:24,116 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:44:24] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-13 02:44:24,141 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:44:24] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:44:24,388 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:44:24] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:45:58,154 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-13 02:45:58,209 INFO werkzeug  * Restarting with stat
+2024-04-13 02:45:58,776 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:45:58,781 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:46:01,959 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 02:46:01,960 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 02:46:01,963 INFO werkzeug  * Restarting with stat
+2024-04-13 02:46:02,891 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:46:02,895 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:46:03,256 DEBUG root User load: 5
+2024-04-13 02:46:03,289 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:46:03] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-04-13 02:46:03,428 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:46:03] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-13 02:46:03,429 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:46:03] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-13 02:46:03,459 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:46:03] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:46:03,641 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:46:03] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:50:19,155 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-13 02:50:19,250 INFO werkzeug  * Restarting with stat
+2024-04-13 02:50:49,271 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 02:50:49,272 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 02:50:49,276 INFO werkzeug  * Restarting with stat
+2024-04-13 02:50:50,038 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:50:50,042 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:50:51,532 DEBUG root User load: 5
+2024-04-13 02:50:51,552 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:50:51] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-04-13 02:50:51,709 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:50:51] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-13 02:50:51,710 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:50:51] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-13 02:50:51,761 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:50:51] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:50:52,009 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:50:52] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:51:32,722 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 02:51:32,722 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 02:51:32,725 INFO werkzeug  * Restarting with stat
+2024-04-13 02:51:33,422 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:51:33,426 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:51:38,890 DEBUG root User load: 5
+2024-04-13 02:51:38,906 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:51:38] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-04-13 02:51:39,031 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:51:39] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-13 02:51:39,040 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:51:39] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-13 02:51:39,070 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:51:39] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:51:39,243 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:51:39] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:51:43,839 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-13 02:51:43,935 INFO werkzeug  * Restarting with stat
+2024-04-13 02:51:44,538 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:51:44,544 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:51:45,845 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 02:51:45,845 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 02:51:45,848 INFO werkzeug  * Restarting with stat
+2024-04-13 02:51:46,438 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:51:46,441 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:51:50,288 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 02:51:50,288 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 02:51:50,289 INFO werkzeug  * Restarting with stat
+2024-04-13 02:51:51,512 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:51:51,517 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:51:51,852 DEBUG root User load: 5
+2024-04-13 02:51:51,863 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:51:51] "GET / HTTP/1.1" 200 -
+2024-04-13 02:51:54,720 DEBUG root User load: 5
+2024-04-13 02:51:54,750 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:51:54] "[35m[1mGET /profile HTTP/1.1[0m" 500 -
+2024-04-13 02:51:54,862 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:51:54] "[36mGET /profile?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-13 02:51:54,862 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:51:54] "[36mGET /profile?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-13 02:51:54,889 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:51:54] "[36mGET /profile?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:51:57,784 DEBUG root User load: 5
+2024-04-13 02:51:57,785 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:51:57] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-04-13 02:51:57,843 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:51:57] "GET /login HTTP/1.1" 200 -
+2024-04-13 02:52:05,326 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:52:05] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-04-13 02:52:05,352 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:52:05] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-13 02:52:05,356 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:52:05] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-13 02:52:05,371 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:52:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:52:05,543 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:52:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:52:27,309 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-13 02:52:27,359 INFO werkzeug  * Restarting with stat
+2024-04-13 02:52:27,967 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:52:27,971 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:52:50,042 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 02:52:50,043 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 02:52:50,046 INFO werkzeug  * Restarting with stat
+2024-04-13 02:52:50,595 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:52:50,601 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:52:50,699 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:52:50] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-04-13 02:52:50,908 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:52:50] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-13 02:52:50,925 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:52:50] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-13 02:52:50,959 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:52:50] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:52:51,157 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:52:51] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:52:51,581 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:52:51] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-04-13 02:52:51,609 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:52:51] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-13 02:52:51,611 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:52:51] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-13 02:52:51,646 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:52:51] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:52:51,920 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:52:51] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:53:23,863 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 02:53:23,864 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 02:53:23,866 INFO werkzeug  * Restarting with stat
+2024-04-13 02:53:24,835 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:53:24,841 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:53:25,770 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:53:25] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-04-13 02:53:25,900 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:53:25] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-13 02:53:25,903 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:53:25] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-13 02:53:25,935 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:53:25] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:53:26,107 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:53:26] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:54:25,631 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 02:54:25,631 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 02:54:25,634 INFO werkzeug  * Restarting with stat
+2024-04-13 02:54:26,501 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:54:26,508 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:54:27,369 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:54:27] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-04-13 02:54:27,499 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:54:27] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-13 02:54:27,512 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:54:27] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-13 02:54:27,534 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:54:27] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:54:27,715 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:54:27] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:54:43,856 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 02:54:43,856 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 02:54:43,858 INFO werkzeug  * Restarting with stat
+2024-04-13 02:54:44,547 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:54:44,553 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:54:45,077 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:54:45] "GET / HTTP/1.1" 200 -
+2024-04-13 02:54:48,491 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:54:48] "GET /login HTTP/1.1" 200 -
+2024-04-13 02:54:51,348 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:54:51] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-04-13 02:54:51,356 DEBUG root User load: 5
+2024-04-13 02:54:51,380 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:54:51] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-04-13 02:54:51,503 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:54:51] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-13 02:54:51,504 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:54:51] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-13 02:54:51,539 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:54:51] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:54:51,714 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:54:51] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:55:36,915 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-13 02:55:36,960 INFO werkzeug  * Restarting with stat
+2024-04-13 02:55:37,397 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:55:37,401 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:55:40,528 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-13 02:55:40,595 INFO werkzeug  * Restarting with stat
+2024-04-13 02:55:41,395 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:55:41,405 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:55:43,732 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 02:55:43,732 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 02:55:43,734 INFO werkzeug  * Restarting with stat
+2024-04-13 02:55:44,259 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:55:44,265 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:55:44,294 DEBUG root User load: 5
+2024-04-13 02:55:44,327 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:55:44] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-04-13 02:55:44,457 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:55:44] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-13 02:55:44,464 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:55:44] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-13 02:55:44,500 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:55:44] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:55:44,692 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:55:44] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:56:25,134 DEBUG root User load: 5
+2024-04-13 02:56:25,139 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:56:25] "GET / HTTP/1.1" 200 -
+2024-04-13 02:56:26,242 DEBUG root User load: 5
+2024-04-13 02:56:26,244 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:56:26] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-04-13 02:56:26,255 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:56:26] "GET /login HTTP/1.1" 200 -
+2024-04-13 02:56:28,116 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:56:28] "GET / HTTP/1.1" 200 -
+2024-04-13 02:56:33,556 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 02:56:33,556 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 02:56:33,558 INFO werkzeug  * Restarting with stat
+2024-04-13 02:56:34,221 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:56:34,230 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:56:40,447 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:56:40] "GET / HTTP/1.1" 200 -
+2024-04-13 02:57:20,753 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-13 02:57:20,808 INFO werkzeug  * Restarting with stat
+2024-04-13 02:57:21,783 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:57:21,788 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:57:26,254 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 02:57:26,254 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 02:57:26,260 INFO werkzeug  * Restarting with stat
+2024-04-13 02:57:26,816 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:57:26,823 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:57:29,950 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:57:29] "GET / HTTP/1.1" 200 -
+2024-04-13 02:57:34,420 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:57:34] "GET /login HTTP/1.1" 200 -
+2024-04-13 02:57:35,772 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:57:35] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-04-13 02:57:35,883 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:57:35] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-13 02:57:35,885 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:57:35] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-13 02:57:35,908 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:57:35] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:57:36,095 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:57:36] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 02:59:24,448 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 02:59:24,449 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 02:59:24,456 INFO werkzeug  * Restarting with stat
+2024-04-13 02:59:25,386 WARNING werkzeug  * Debugger is active!
+2024-04-13 02:59:25,393 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 02:59:26,895 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:59:26] "GET / HTTP/1.1" 200 -
+2024-04-13 02:59:28,674 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:59:28] "GET /login HTTP/1.1" 200 -
+2024-04-13 02:59:30,266 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:59:30] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-04-13 02:59:30,388 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:59:30] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-13 02:59:30,389 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:59:30] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-13 02:59:30,420 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 02:59:30] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 03:00:05,581 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-13 03:00:05,641 INFO werkzeug  * Restarting with stat
+2024-04-13 03:01:04,622 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 03:01:04,623 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 03:01:04,625 INFO werkzeug  * Restarting with stat
+2024-04-13 03:01:05,310 WARNING werkzeug  * Debugger is active!
+2024-04-13 03:01:05,314 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 03:01:06,735 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:01:06] "GET / HTTP/1.1" 200 -
+2024-04-13 03:01:07,858 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:01:07] "GET /login HTTP/1.1" 200 -
+2024-04-13 03:01:09,760 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:01:09] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-04-13 03:01:09,768 DEBUG root User load: 5
+2024-04-13 03:01:09,769 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:01:09] "GET / HTTP/1.1" 200 -
+2024-04-13 03:01:51,408 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-13 03:01:51,474 INFO werkzeug  * Restarting with stat
+2024-04-13 03:01:51,892 WARNING werkzeug  * Debugger is active!
+2024-04-13 03:01:51,896 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 03:01:52,189 DEBUG root User load: 5
+2024-04-13 03:01:52,202 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:01:52] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-04-13 03:01:52,334 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:01:52] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-13 03:01:52,334 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:01:52] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-13 03:01:52,358 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:01:52] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 03:01:52,533 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:01:52] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 03:02:07,712 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-13 03:02:07,764 INFO werkzeug  * Restarting with stat
+2024-04-13 03:02:08,517 WARNING werkzeug  * Debugger is active!
+2024-04-13 03:02:08,530 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 03:02:10,218 DEBUG root User load: 5
+2024-04-13 03:02:10,230 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:02:10] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-04-13 03:02:10,360 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:02:10] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-13 03:02:10,364 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:02:10] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-13 03:02:10,386 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:02:10] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 03:02:10,569 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:02:10] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 03:02:28,223 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 03:02:28,223 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 03:02:28,225 INFO werkzeug  * Restarting with stat
+2024-04-13 03:02:28,812 WARNING werkzeug  * Debugger is active!
+2024-04-13 03:02:28,816 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 03:02:29,877 DEBUG root User load: 5
+2024-04-13 03:02:29,895 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:02:29] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-04-13 03:02:30,021 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:02:30] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-13 03:02:30,025 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:02:30] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-13 03:02:30,052 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:02:30] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 03:02:30,223 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:02:30] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 03:02:31,377 DEBUG root User load: 5
+2024-04-13 03:02:31,392 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:02:31] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-04-13 03:02:31,417 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:02:31] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-13 03:02:31,418 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:02:31] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-13 03:02:31,444 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:02:31] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 03:02:31,620 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:02:31] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 03:02:35,816 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 03:02:35,817 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 03:02:35,819 INFO werkzeug  * Restarting with stat
+2024-04-13 03:02:36,464 WARNING werkzeug  * Debugger is active!
+2024-04-13 03:02:36,470 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 03:02:36,571 DEBUG root User load: 5
+2024-04-13 03:02:36,583 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:02:36] "GET / HTTP/1.1" 200 -
+2024-04-13 03:02:40,651 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-13 03:02:40,855 INFO werkzeug  * Restarting with stat
+2024-04-13 03:02:41,430 WARNING werkzeug  * Debugger is active!
+2024-04-13 03:02:41,434 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 03:02:41,538 DEBUG root User load: 5
+2024-04-13 03:02:41,553 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:02:41] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-04-13 03:02:41,677 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:02:41] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-13 03:02:41,680 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:02:41] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-13 03:02:41,704 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:02:41] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 03:02:41,873 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:02:41] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 03:02:55,862 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-13 03:02:55,899 INFO werkzeug  * Restarting with stat
+2024-04-13 03:02:56,504 WARNING werkzeug  * Debugger is active!
+2024-04-13 03:02:56,507 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 03:03:01,826 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-13 03:03:01,872 INFO werkzeug  * Restarting with stat
+2024-04-13 03:03:02,625 WARNING werkzeug  * Debugger is active!
+2024-04-13 03:03:02,632 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 03:03:02,843 DEBUG root User load: 5
+2024-04-13 03:03:02,858 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:03:02] "GET / HTTP/1.1" 200 -
+2024-04-13 03:03:03,942 DEBUG root User load: 5
+2024-04-13 03:03:03,943 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:03:03] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-04-13 03:03:03,955 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:03:03] "GET /login HTTP/1.1" 200 -
+2024-04-13 03:03:10,900 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-13 03:03:10,938 INFO werkzeug  * Restarting with stat
+2024-04-13 03:03:11,398 WARNING werkzeug  * Debugger is active!
+2024-04-13 03:03:11,403 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 03:03:13,868 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:03:13] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-04-13 03:03:13,875 DEBUG root User load: 5
+2024-04-13 03:03:13,888 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:03:13] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-04-13 03:03:14,004 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:03:14] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-13 03:03:14,007 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:03:14] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-13 03:03:14,041 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:03:14] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 03:03:14,229 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:03:14] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-13 03:03:34,286 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\DataBaseManager.py', reloading
+2024-04-13 03:03:34,337 INFO werkzeug  * Restarting with stat
+2024-04-13 03:03:35,159 WARNING werkzeug  * Debugger is active!
+2024-04-13 03:03:35,164 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 03:03:36,514 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-13 03:03:36,515 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-13 03:03:36,517 INFO werkzeug  * Restarting with stat
+2024-04-13 03:03:37,048 WARNING werkzeug  * Debugger is active!
+2024-04-13 03:03:37,051 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 03:03:37,077 DEBUG root User load: 5
+2024-04-13 03:03:37,087 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:03:37] "GET / HTTP/1.1" 200 -
+2024-04-13 03:03:37,925 DEBUG root User load: 5
+2024-04-13 03:03:37,926 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:03:37] "GET / HTTP/1.1" 200 -
+2024-04-13 03:03:38,136 DEBUG root User load: 5
+2024-04-13 03:03:38,139 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:03:38] "GET / HTTP/1.1" 200 -
+2024-04-13 03:03:38,262 DEBUG root User load: 5
+2024-04-13 03:03:38,264 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:03:38] "GET / HTTP/1.1" 200 -
+2024-04-13 03:03:48,408 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-13 03:03:48,459 INFO werkzeug  * Restarting with stat
+2024-04-13 03:03:48,840 WARNING werkzeug  * Debugger is active!
+2024-04-13 03:03:48,843 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 03:03:55,835 DEBUG root User load: 5
+2024-04-13 03:03:55,843 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:03:55] "GET / HTTP/1.1" 200 -
+2024-04-13 03:03:57,599 DEBUG root User load: 5
+2024-04-13 03:03:57,600 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:03:57] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-04-13 03:03:57,612 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:03:57] "GET /login HTTP/1.1" 200 -
+2024-04-13 03:03:59,271 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:03:59] "GET / HTTP/1.1" 200 -
+2024-04-13 03:04:01,461 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:04:01] "GET /login HTTP/1.1" 200 -
+2024-04-13 03:04:03,868 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:04:03] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-04-13 03:04:03,878 DEBUG root User load: 5
+2024-04-13 03:04:03,879 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:04:03] "GET / HTTP/1.1" 200 -
+2024-04-13 03:04:13,601 DEBUG root User load: 5
+2024-04-13 03:04:13,602 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:04:13] "GET / HTTP/1.1" 200 -
+2024-04-13 03:04:14,080 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 03:04:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-04-13 03:04:30,222 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-13 03:04:30,301 INFO werkzeug  * Restarting with stat
+2024-04-13 03:04:31,242 WARNING werkzeug  * Debugger is active!
+2024-04-13 03:04:31,246 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 03:04:59,275 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-13 03:04:59,340 INFO werkzeug  * Restarting with stat
+2024-04-13 03:05:00,062 WARNING werkzeug  * Debugger is active!
+2024-04-13 03:05:00,066 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 03:05:22,836 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-13 03:05:22,880 INFO werkzeug  * Restarting with stat
+2024-04-13 03:05:23,660 WARNING werkzeug  * Debugger is active!
+2024-04-13 03:05:23,669 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 03:05:34,950 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-13 03:05:34,987 INFO werkzeug  * Restarting with stat
+2024-04-13 03:05:35,475 WARNING werkzeug  * Debugger is active!
+2024-04-13 03:05:35,481 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-13 03:05:50,897 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-13 03:05:50,985 INFO werkzeug  * Restarting with stat
+2024-04-13 03:05:51,569 WARNING werkzeug  * Debugger is active!
+2024-04-13 03:05:51,572 INFO werkzeug  * Debugger PIN: 127-752-769

@@ -3,9 +3,8 @@ from flask_login import LoginManager, login_user, login_required, logout_user, c
 from UserLogin import UserLogin
 from DataBaseManager import DBManager
 from werkzeug.security import generate_password_hash, check_password_hash
-import os
+from os import path
 import sqlite3
-from datetime import datetime
 import logging
 
 logging.basicConfig(level=logging.DEBUG, filename='data/log.log',
@@ -16,9 +15,12 @@ DATABASE = '/data/LittleHeroDB.db'
 app = Flask(__name__)
 app.config['SECRET_KEY'] = '23dadd556c0f820e6a81887f0c3f41bd90357ab9'
 app.config.from_object(__name__)
-app.config.update(dict(DATABASE=os.path.join(app.root_path, 'data\\LittleHeroDB.db')))
+app.config.update(dict(DATABASE=path.join(app.root_path, 'data\\LittleHeroDB.db')))
 
 login_manager = LoginManager(app)
+login_manager.login_view = 'login'
+login_manager.login_message = 'Авторизуйтесь для доступа к данной странице'
+login_manager.login_message_category = 'success'
 
 
 @login_manager.user_loader
@@ -85,14 +87,14 @@ def registration():
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
-        form = request.form.to_dict()
-        if form:
-            email = form['email']
-            password = form['password']
+        if request.form:
+            email = request.form['email']
+            password = request.form['password']
             user = dbase.getUserByEmail(email)
             if user and check_password_hash(user['password'], password):
                 userlogin = UserLogin().create(user)
-                login_user(userlogin)
+                rm = True if request.form.get('remainme') else False
+                login_user(userlogin, remember=rm)
                 return redirect(url_for('main_page'))
         flash('Неверен пароль или логин', 'error')
     return render_template('login.html', user=current_user)
@@ -103,7 +105,7 @@ def login():
 def logout():
     logout_user()
     flash('Вы вышли из аккаунта!', 'success')
-    return redirect(url_for('main_page'))
+    return redirect(url_for('login'))
 
 
 @app.route('/profile')

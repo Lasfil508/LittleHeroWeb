@@ -1,7 +1,10 @@
 {% extends "index.html" %}
 {% block body %}
 <div>
-    {% if not user %}
+    {% if user.is_authenticated %}
+        {{ user.get_nickname() }}
+    {% endif %}
+    {% if not user.is_authenticated %}
         <form action="{{ url_for('registration') }}" method="get">
             <div>
                 <button type="submit">Регистрация</button>
@@ -13,6 +16,11 @@
             </div>
         </form>
     {% else %}
+        <form action="{{ url_for('profile') }}" method="get">
+            <div>
+                <button type="submit">Профиль</button>
+            </div>
+        </form>
         <form action="{{ url_for('logout') }}" method="get">
             <div>
                 <button type="submit">Выйти</button>
