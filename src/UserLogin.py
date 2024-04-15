@@ -20,5 +20,7 @@ class UserLogin:
         return str(self.__user['id'])
 
     def get_nickname(self):
-        print(self.__user)
         return str(self.__user['nickname'])
+
+    def get_email(self):
+        return str(self.__user['email'])

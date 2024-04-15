@@ -11,6 +11,8 @@ logging.basicConfig(level=logging.DEBUG, filename='data/log.log',
                     format='%(asctime)s %(levelname)s %(name)s %(message)s')
 
 DATABASE = '/data/LittleHeroDB.db'
+gamePath = 'LittleHeroFiles/little_hero.zip'
+
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = '23dadd556c0f820e6a81887f0c3f41bd90357ab9'
@@ -62,8 +64,7 @@ def main_page():
 
 @app.route('/download', methods=['POST'])
 def download():
-    path = 'LittleHeroFiles/test.txt'
-    return send_file(path, as_attachment=True)
+    return send_file(gamePath, as_attachment=True)
 
 
 @app.route('/registration', methods=['GET', 'POST'])
