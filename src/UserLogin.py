@@ -1,3 +1,6 @@
+import os
+
+
 class UserLogin:
     def fromDB(self, user_id, db):
         self.__user = db.getUser(user_id)
@@ -24,3 +27,6 @@ class UserLogin:
 
     def get_email(self):
         return str(self.__user['email'])
+
+    def get_avatar(self):
+        return str(os.path.join(os.path.join('static', 'img'), self.__user['avatar']))

@@ -1,0 +1,41 @@
+{% extends "index.html" %}
+{% block body %}
+<div>
+    {% if user.is_authenticated %}
+        <p>{{ user.get_nickname() }}</p>
+    {% endif %}
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for message in messages %}
+                <p>{{ message }}</p>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+    <h3>Загрузите свою карту!</h3>
+    <form action="{{ url_for('upload_map') }}" method="post" enctype=multipart/form-data>
+        <div>
+            <label for="file">Выберите файл</label>
+            <input type="file" id="file" name="file">
+            <button type="submit">Отправить</button>
+        </div>
+    </form>
+    <h2>Библиотека карт!</h2>
+    <div>
+    {% if maps %}
+        {% for map in maps %}
+            <div>
+                <form action="{{ url_for('map_details', map_id=map[0]) }}" method="get">
+                    <button type="submit">
+                        <h2>{{ map[1] }}</h2>
+                        <p>{{ map[1] }}</p>
+                        <p>{{ map[5] }}</p>
+                    </button>
+                </form>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>Карт не обнаруженно!</p>
+    {% endif %}
+    </div>
+</div>
+{% endblock %}

@@ -1144,3 +1144,1284 @@
 2024-04-13 16:27:34,820 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 16:27:34] "[32mGET /profile HTTP/1.1[0m" 302 -
 2024-04-13 16:27:34,841 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 16:27:34] "GET /login?next=/profile HTTP/1.1" 200 -
 2024-04-13 16:27:53,225 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 16:27:53] "GET / HTTP/1.1" 200 -
+2024-04-15 20:31:51,236 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-15 20:31:51,236 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-15 20:31:51,238 INFO werkzeug  * Restarting with stat
+2024-04-15 20:31:51,624 WARNING werkzeug  * Debugger is active!
+2024-04-15 20:31:51,637 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-15 20:31:57,296 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:31:57] "GET / HTTP/1.1" 200 -
+2024-04-15 20:31:57,637 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:31:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-04-15 20:32:05,697 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:32:05] "GET /api/upload_map HTTP/1.1" 200 -
+2024-04-15 20:32:38,686 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:32:38] "[35m[1mPOST /api/upload_map HTTP/1.1[0m" 500 -
+2024-04-15 20:32:38,826 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:32:38] "GET /api/upload_map?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-15 20:32:38,837 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:32:38] "GET /api/upload_map?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-15 20:32:38,946 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:32:38] "GET /api/upload_map?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-15 20:32:39,161 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:32:39] "[36mGET /api/upload_map?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-15 20:32:59,386 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-15 20:32:59,497 INFO werkzeug  * Restarting with stat
+2024-04-15 20:33:00,344 WARNING werkzeug  * Debugger is active!
+2024-04-15 20:33:00,348 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-15 20:33:09,438 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-15 20:33:09,439 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-15 20:33:09,440 INFO werkzeug  * Restarting with stat
+2024-04-15 20:33:09,928 WARNING werkzeug  * Debugger is active!
+2024-04-15 20:33:09,932 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-15 20:33:09,965 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:33:09] "GET / HTTP/1.1" 200 -
+2024-04-15 20:33:22,470 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:33:22] "[33mGET /api/uload_map HTTP/1.1[0m" 404 -
+2024-04-15 20:33:26,979 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:33:26] "GET /api/upload_map HTTP/1.1" 200 -
+2024-04-15 20:33:33,751 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:33:33] "[35m[1mPOST /api/upload_map HTTP/1.1[0m" 500 -
+2024-04-15 20:33:33,889 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:33:33] "[36mGET /api/upload_map?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-15 20:33:33,890 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:33:33] "[36mGET /api/upload_map?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-15 20:33:33,917 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:33:33] "[36mGET /api/upload_map?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-15 20:33:34,157 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:33:34] "[36mGET /api/upload_map?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-15 20:33:57,932 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:33:57] "[35m[1mPOST /api/upload_map HTTP/1.1[0m" 500 -
+2024-04-15 20:33:57,966 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:33:57] "[36mGET /api/upload_map?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-15 20:33:57,974 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:33:57] "[36mGET /api/upload_map?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-15 20:33:58,002 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:33:58] "[36mGET /api/upload_map?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-15 20:33:58,304 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:33:58] "[36mGET /api/upload_map?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-15 20:34:47,422 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-15 20:34:47,423 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-15 20:34:47,429 INFO werkzeug  * Restarting with stat
+2024-04-15 20:34:47,958 WARNING werkzeug  * Debugger is active!
+2024-04-15 20:34:47,963 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-15 20:34:52,299 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:34:52] "[35m[1mPOST /api/upload_map HTTP/1.1[0m" 500 -
+2024-04-15 20:34:52,485 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:34:52] "[36mGET /api/upload_map?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-15 20:34:52,494 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:34:52] "[36mGET /api/upload_map?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-15 20:34:52,598 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:34:52] "[36mGET /api/upload_map?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-15 20:34:52,774 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:34:52] "[36mGET /api/upload_map?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-15 20:35:08,490 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-15 20:35:08,722 INFO werkzeug  * Restarting with stat
+2024-04-15 20:35:09,456 WARNING werkzeug  * Debugger is active!
+2024-04-15 20:35:09,460 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-15 20:35:56,799 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-15 20:35:56,799 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-15 20:35:56,801 INFO werkzeug  * Restarting with stat
+2024-04-15 20:35:58,100 WARNING werkzeug  * Debugger is active!
+2024-04-15 20:35:58,105 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-15 20:36:00,068 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:36:00] "[35m[1mPOST /api/upload_map HTTP/1.1[0m" 500 -
+2024-04-15 20:36:00,248 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:36:00] "[36mGET /api/upload_map?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-15 20:36:00,250 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:36:00] "[36mGET /api/upload_map?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-15 20:36:00,283 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:36:00] "[36mGET /api/upload_map?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-15 20:36:00,500 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:36:00] "[36mGET /api/upload_map?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-15 20:36:55,277 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-15 20:36:55,277 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-15 20:36:55,279 INFO werkzeug  * Restarting with stat
+2024-04-15 20:36:55,718 WARNING werkzeug  * Debugger is active!
+2024-04-15 20:36:55,727 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-15 20:37:04,730 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:37:04] "[35m[1mPOST /api/upload_map HTTP/1.1[0m" 500 -
+2024-04-15 20:37:04,878 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:37:04] "[36mGET /api/upload_map?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-15 20:37:04,884 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:37:04] "[36mGET /api/upload_map?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-15 20:37:04,907 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:37:04] "[36mGET /api/upload_map?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-15 20:37:05,142 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:37:05] "[36mGET /api/upload_map?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-15 20:37:18,676 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-15 20:37:18,676 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-15 20:37:18,679 INFO werkzeug  * Restarting with stat
+2024-04-15 20:37:20,307 WARNING werkzeug  * Debugger is active!
+2024-04-15 20:37:20,322 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-15 20:37:21,521 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:37:21] "[35m[1mPOST /api/upload_map HTTP/1.1[0m" 500 -
+2024-04-15 20:37:21,673 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:37:21] "[36mGET /api/upload_map?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-15 20:37:21,674 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:37:21] "[36mGET /api/upload_map?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-15 20:37:21,712 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:37:21] "[36mGET /api/upload_map?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-15 20:37:21,924 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:37:21] "[36mGET /api/upload_map?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-15 20:37:59,768 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-15 20:37:59,769 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-15 20:37:59,771 INFO werkzeug  * Restarting with stat
+2024-04-15 20:38:01,291 WARNING werkzeug  * Debugger is active!
+2024-04-15 20:38:01,298 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-15 20:38:01,501 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:38:01] "[35m[1mPOST /api/upload_map HTTP/1.1[0m" 500 -
+2024-04-15 20:38:01,667 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:38:01] "[36mGET /api/upload_map?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-15 20:38:01,761 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:38:01] "[36mGET /api/upload_map?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-15 20:38:01,839 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:38:01] "[36mGET /api/upload_map?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-15 20:38:02,027 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:38:02] "[36mGET /api/upload_map?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-15 20:38:23,964 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-15 20:38:23,965 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-15 20:38:23,969 INFO werkzeug  * Restarting with stat
+2024-04-15 20:38:24,549 WARNING werkzeug  * Debugger is active!
+2024-04-15 20:38:24,557 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-15 20:38:26,125 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:38:26] "[32mPOST /api/upload_map HTTP/1.1[0m" 302 -
+2024-04-15 20:38:26,147 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:38:26] "GET / HTTP/1.1" 200 -
+2024-04-15 20:39:53,212 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-15 20:39:53,212 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-15 20:39:53,214 INFO werkzeug  * Restarting with stat
+2024-04-15 20:39:53,654 WARNING werkzeug  * Debugger is active!
+2024-04-15 20:39:53,657 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-15 20:40:03,035 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:40:03] "GET /api/upload_map HTTP/1.1" 200 -
+2024-04-15 20:40:09,498 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:40:09] "[32mPOST /api/upload_map HTTP/1.1[0m" 302 -
+2024-04-15 20:40:09,515 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:40:09] "GET / HTTP/1.1" 200 -
+2024-04-15 20:40:26,251 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-15 20:40:26,300 INFO werkzeug  * Restarting with stat
+2024-04-15 20:40:27,002 WARNING werkzeug  * Debugger is active!
+2024-04-15 20:40:27,007 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-15 20:40:29,823 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-15 20:40:29,823 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-15 20:40:29,825 INFO werkzeug  * Restarting with stat
+2024-04-15 20:40:30,272 WARNING werkzeug  * Debugger is active!
+2024-04-15 20:40:30,275 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-15 20:40:31,251 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:40:31] "GET /api/upload_map HTTP/1.1" 200 -
+2024-04-15 20:40:34,445 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:40:34] "[32mPOST /api/upload_map HTTP/1.1[0m" 302 -
+2024-04-15 20:40:34,462 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:40:34] "GET / HTTP/1.1" 200 -
+2024-04-15 20:40:55,857 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:40:55] "GET / HTTP/1.1" 200 -
+2024-04-15 20:41:02,182 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:41:02] "GET /api/upload_map HTTP/1.1" 200 -
+2024-04-15 20:41:28,587 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:41:28] "GET /api/upload_map HTTP/1.1" 200 -
+2024-04-15 20:41:47,898 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:41:47] "[32mPOST /api/upload_map HTTP/1.1[0m" 302 -
+2024-04-15 20:41:47,944 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:41:47] "GET / HTTP/1.1" 200 -
+2024-04-15 20:44:04,944 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-15 20:44:05,043 INFO werkzeug  * Restarting with stat
+2024-04-15 20:44:06,091 WARNING werkzeug  * Debugger is active!
+2024-04-15 20:44:06,096 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-15 20:44:09,926 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:44:09] "GET /api/upload_map HTTP/1.1" 200 -
+2024-04-15 20:44:24,830 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:44:24] "POST /api/upload_map HTTP/1.1" 200 -
+2024-04-15 20:44:29,480 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:44:29] "GET /api/upload_map HTTP/1.1" 200 -
+2024-04-15 20:44:42,346 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-15 20:44:42,404 INFO werkzeug  * Restarting with stat
+2024-04-15 20:44:43,241 WARNING werkzeug  * Debugger is active!
+2024-04-15 20:44:43,248 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-15 20:44:44,324 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:44:44] "[35m[1mPOST /api/upload_map HTTP/1.1[0m" 500 -
+2024-04-15 20:44:44,577 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:44:44] "[36mGET /api/upload_map?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-15 20:44:44,588 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:44:44] "[36mGET /api/upload_map?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-15 20:44:44,656 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:44:44] "[36mGET /api/upload_map?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-15 20:44:45,000 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:44:45] "[36mGET /api/upload_map?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-15 20:45:30,665 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-15 20:45:30,744 INFO werkzeug  * Restarting with stat
+2024-04-15 20:45:31,284 WARNING werkzeug  * Debugger is active!
+2024-04-15 20:45:31,296 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-15 20:45:31,958 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:45:31] "POST /api/upload_map HTTP/1.1" 200 -
+2024-04-15 20:45:46,642 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:45:46] "POST /api/upload_map HTTP/1.1" 200 -
+2024-04-15 20:45:48,708 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:45:48] "POST /api/upload_map HTTP/1.1" 200 -
+2024-04-15 20:45:49,513 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:45:49] "POST /api/upload_map HTTP/1.1" 200 -
+2024-04-15 20:45:50,135 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:45:50] "POST /api/upload_map HTTP/1.1" 200 -
+2024-04-15 20:45:50,518 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:45:50] "POST /api/upload_map HTTP/1.1" 200 -
+2024-04-15 20:45:50,718 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:45:50] "POST /api/upload_map HTTP/1.1" 200 -
+2024-04-15 20:45:50,947 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:45:50] "POST /api/upload_map HTTP/1.1" 200 -
+2024-04-15 20:46:04,976 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:46:04] "POST /api/upload_map HTTP/1.1" 200 -
+2024-04-15 20:46:08,159 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:46:08] "POST /api/upload_map HTTP/1.1" 200 -
+2024-04-15 20:46:25,680 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:46:25] "POST /api/upload_map HTTP/1.1" 200 -
+2024-04-15 20:46:28,108 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:46:28] "POST /api/upload_map HTTP/1.1" 200 -
+2024-04-15 20:46:33,785 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:46:33] "POST /api/upload_map HTTP/1.1" 200 -
+2024-04-15 20:46:38,930 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:46:38] "POST /api/upload_map HTTP/1.1" 200 -
+2024-04-15 20:46:48,001 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:46:48] "[32mPOST /api/upload_map HTTP/1.1[0m" 302 -
+2024-04-15 20:46:48,016 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:46:48] "GET /api/upload_map HTTP/1.1" 200 -
+2024-04-15 20:46:53,767 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:46:53] "[32mPOST /api/upload_map HTTP/1.1[0m" 302 -
+2024-04-15 20:46:53,784 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:46:53] "GET /api/upload_map HTTP/1.1" 200 -
+2024-04-15 20:47:01,916 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:47:01] "[32mPOST /api/upload_map HTTP/1.1[0m" 302 -
+2024-04-15 20:47:01,931 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:47:01] "GET /api/upload_map HTTP/1.1" 200 -
+2024-04-15 20:47:08,733 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:47:08] "POST /api/upload_map HTTP/1.1" 200 -
+2024-04-15 20:49:44,387 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-15 20:49:44,452 INFO werkzeug  * Restarting with stat
+2024-04-15 20:49:45,417 WARNING werkzeug  * Debugger is active!
+2024-04-15 20:49:45,421 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-15 20:49:46,495 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-15 20:49:46,653 INFO werkzeug  * Restarting with stat
+2024-04-15 20:49:47,589 WARNING werkzeug  * Debugger is active!
+2024-04-15 20:49:47,597 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-15 20:49:54,968 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-15 20:49:55,047 INFO werkzeug  * Restarting with stat
+2024-04-15 20:49:55,497 WARNING werkzeug  * Debugger is active!
+2024-04-15 20:49:55,501 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-15 20:50:05,865 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-15 20:50:05,959 INFO werkzeug  * Restarting with stat
+2024-04-15 20:50:06,409 WARNING werkzeug  * Debugger is active!
+2024-04-15 20:50:06,413 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-15 20:50:10,675 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-15 20:50:10,761 INFO werkzeug  * Restarting with stat
+2024-04-15 20:50:11,270 WARNING werkzeug  * Debugger is active!
+2024-04-15 20:50:11,274 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-15 20:50:17,637 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-15 20:50:17,700 INFO werkzeug  * Restarting with stat
+2024-04-15 20:50:18,266 WARNING werkzeug  * Debugger is active!
+2024-04-15 20:50:18,272 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-15 20:50:38,925 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-15 20:50:39,055 INFO werkzeug  * Restarting with stat
+2024-04-15 20:50:40,455 WARNING werkzeug  * Debugger is active!
+2024-04-15 20:50:40,506 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-15 20:52:17,167 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-15 20:52:17,239 INFO werkzeug  * Restarting with stat
+2024-04-15 20:52:18,260 WARNING werkzeug  * Debugger is active!
+2024-04-15 20:52:18,266 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-15 20:52:21,488 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-15 20:52:21,619 INFO werkzeug  * Restarting with stat
+2024-04-15 20:52:22,375 WARNING werkzeug  * Debugger is active!
+2024-04-15 20:52:22,379 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-15 20:55:35,812 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-15 20:55:35,812 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-15 20:55:35,820 INFO werkzeug  * Restarting with stat
+2024-04-15 20:55:36,385 WARNING werkzeug  * Debugger is active!
+2024-04-15 20:55:36,389 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-15 20:56:18,244 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:56:18] "[33mPOST /api/upload_maps HTTP/1.1[0m" 404 -
+2024-04-15 20:56:31,028 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:56:31] "[35m[1mPOST /api/upload_map HTTP/1.1[0m" 201 -
+2024-04-16 22:13:07,856 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-16 22:13:07,856 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-16 22:13:07,860 INFO werkzeug  * Restarting with stat
+2024-04-16 22:13:08,314 WARNING werkzeug  * Debugger is active!
+2024-04-16 22:13:08,454 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-16 22:13:12,175 INFO werkzeug 127.0.0.1 - - [16/Apr/2024 22:13:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-04-16 22:13:12,558 INFO werkzeug 127.0.0.1 - - [16/Apr/2024 22:13:12] "GET / HTTP/1.1" 200 -
+2024-04-16 22:13:15,680 INFO werkzeug 127.0.0.1 - - [16/Apr/2024 22:13:15] "GET /login HTTP/1.1" 200 -
+2024-04-16 22:13:17,770 INFO werkzeug 127.0.0.1 - - [16/Apr/2024 22:13:17] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-04-16 22:13:17,787 DEBUG root User load: 6
+2024-04-16 22:13:17,788 INFO werkzeug 127.0.0.1 - - [16/Apr/2024 22:13:17] "GET / HTTP/1.1" 200 -
+2024-04-16 22:13:30,356 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\DataBaseManager.py', reloading
+2024-04-16 22:13:30,640 INFO werkzeug  * Restarting with stat
+2024-04-16 22:13:32,641 WARNING werkzeug  * Debugger is active!
+2024-04-16 22:13:32,656 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-17 18:02:47,728 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-17 18:02:47,728 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-17 18:02:47,734 INFO werkzeug  * Restarting with stat
+2024-04-17 18:02:48,785 WARNING werkzeug  * Debugger is active!
+2024-04-17 18:02:48,801 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-17 18:02:52,165 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 18:02:52] "GET / HTTP/1.1" 200 -
+2024-04-17 18:02:52,783 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 18:02:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-04-17 18:03:03,822 ERROR root Maps don't found!
+2024-04-17 18:03:03,966 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 18:03:03] "[35m[1mGET /maps HTTP/1.1[0m" 500 -
+2024-04-17 18:03:04,197 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 18:03:04] "GET /maps?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-17 18:03:04,208 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 18:03:04] "GET /maps?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-17 18:03:04,336 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 18:03:04] "GET /maps?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-17 18:03:04,649 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 18:03:04] "[36mGET /maps?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-17 18:03:34,390 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-17 18:03:34,391 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-17 18:03:34,396 INFO werkzeug  * Restarting with stat
+2024-04-17 18:03:35,351 WARNING werkzeug  * Debugger is active!
+2024-04-17 18:03:35,363 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-17 18:03:36,404 ERROR root Maps don't found!
+2024-04-17 18:03:36,510 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 18:03:36] "[35m[1mGET /maps HTTP/1.1[0m" 500 -
+2024-04-17 18:03:36,733 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 18:03:36] "[36mGET /maps?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-17 18:03:36,762 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 18:03:36] "[36mGET /maps?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-17 18:03:36,809 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 18:03:36] "[36mGET /maps?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-17 18:03:37,123 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 18:03:37] "[36mGET /maps?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-17 18:05:17,055 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-17 18:05:17,056 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-17 18:05:17,060 INFO werkzeug  * Restarting with stat
+2024-04-17 18:05:17,933 WARNING werkzeug  * Debugger is active!
+2024-04-17 18:05:17,944 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-17 18:05:18,578 ERROR root Maps don't found!
+2024-04-17 18:05:18,627 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 18:05:18] "GET /maps HTTP/1.1" 200 -
+2024-04-17 18:05:47,100 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-17 18:05:47,101 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-17 18:05:47,106 INFO werkzeug  * Restarting with stat
+2024-04-17 18:05:48,290 WARNING werkzeug  * Debugger is active!
+2024-04-17 18:05:48,301 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-17 18:05:48,373 ERROR root Maps don't found!
+2024-04-17 18:05:48,396 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 18:05:48] "GET /maps HTTP/1.1" 200 -
+2024-04-17 18:09:53,225 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 18:09:53] "[35m[1mPOST /api/upload_map HTTP/1.1[0m" 201 -
+2024-04-17 18:12:14,940 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-17 18:12:15,068 INFO werkzeug  * Restarting with stat
+2024-04-17 18:12:16,164 WARNING werkzeug  * Debugger is active!
+2024-04-17 18:12:16,181 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-17 18:14:53,803 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-17 18:14:53,887 INFO werkzeug  * Restarting with stat
+2024-04-17 18:14:54,825 WARNING werkzeug  * Debugger is active!
+2024-04-17 18:14:54,832 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-17 18:15:24,544 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-17 18:15:24,682 INFO werkzeug  * Restarting with stat
+2024-04-17 18:15:25,848 WARNING werkzeug  * Debugger is active!
+2024-04-17 18:15:25,860 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-17 18:18:28,382 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-17 18:18:28,473 INFO werkzeug  * Restarting with stat
+2024-04-17 18:18:29,987 WARNING werkzeug  * Debugger is active!
+2024-04-17 18:18:30,001 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-17 18:18:54,914 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-17 18:18:54,996 INFO werkzeug  * Restarting with stat
+2024-04-17 18:18:56,335 WARNING werkzeug  * Debugger is active!
+2024-04-17 18:18:56,341 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-17 18:21:52,283 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-17 18:21:52,394 INFO werkzeug  * Restarting with stat
+2024-04-17 18:21:53,650 WARNING werkzeug  * Debugger is active!
+2024-04-17 18:21:53,663 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-17 18:22:26,487 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-17 18:22:26,598 INFO werkzeug  * Restarting with stat
+2024-04-17 18:22:27,726 WARNING werkzeug  * Debugger is active!
+2024-04-17 18:22:27,738 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-17 18:22:39,591 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-17 18:22:39,672 INFO werkzeug  * Restarting with stat
+2024-04-17 18:22:41,121 WARNING werkzeug  * Debugger is active!
+2024-04-17 18:22:41,136 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-17 18:23:17,920 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-17 18:23:18,045 INFO werkzeug  * Restarting with stat
+2024-04-17 18:23:19,415 WARNING werkzeug  * Debugger is active!
+2024-04-17 18:23:19,425 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-17 18:25:52,920 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-17 18:25:52,983 INFO werkzeug  * Restarting with stat
+2024-04-17 18:25:54,010 WARNING werkzeug  * Debugger is active!
+2024-04-17 18:25:54,020 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-17 18:29:52,185 ERROR root Maps don't found!
+2024-04-17 18:29:52,229 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 18:29:52] "GET /maps HTTP/1.1" 200 -
+2024-04-17 18:30:07,931 ERROR root Maps don't found!
+2024-04-17 18:30:07,933 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 18:30:07] "GET /maps HTTP/1.1" 200 -
+2024-04-17 18:30:09,262 ERROR root Maps don't found!
+2024-04-17 18:30:09,268 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 18:30:09] "GET /maps HTTP/1.1" 200 -
+2024-04-17 18:30:13,306 ERROR root Maps don't found!
+2024-04-17 18:30:13,310 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 18:30:13] "GET /maps HTTP/1.1" 200 -
+2024-04-17 18:30:38,180 ERROR root Maps don't found!
+2024-04-17 18:30:38,206 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 18:30:38] "GET /maps HTTP/1.1" 200 -
+2024-04-17 18:30:39,863 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 18:30:39] "GET /maps/create_map HTTP/1.1" 200 -
+2024-04-17 18:30:57,350 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 18:30:57] "[31m[1mPOST /api/upload_map HTTP/1.1[0m" 400 -
+2024-04-17 18:32:02,763 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-17 18:32:02,765 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-17 18:32:02,768 INFO werkzeug  * Restarting with stat
+2024-04-17 18:32:03,934 WARNING werkzeug  * Debugger is active!
+2024-04-17 18:32:03,941 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-17 18:32:16,909 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 18:32:16] "[31m[1mPOST /api/upload_map HTTP/1.1[0m" 400 -
+2024-04-17 18:32:26,782 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 18:32:26] "[31m[1mPOST /api/upload_map HTTP/1.1[0m" 400 -
+2024-04-17 18:32:41,250 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 18:32:41] "[31m[1mPOST /api/upload_map HTTP/1.1[0m" 400 -
+2024-04-17 18:33:18,709 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-17 18:33:18,820 INFO werkzeug  * Restarting with stat
+2024-04-17 18:33:20,140 WARNING werkzeug  * Debugger is active!
+2024-04-17 18:33:20,148 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-17 18:33:30,830 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-17 18:33:30,993 INFO werkzeug  * Restarting with stat
+2024-04-17 18:33:32,281 WARNING werkzeug  * Debugger is active!
+2024-04-17 18:33:32,293 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-17 18:33:32,984 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 18:33:32] "[31m[1mPOST /api/upload_map HTTP/1.1[0m" 400 -
+2024-04-17 18:33:42,748 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 18:33:42] "[31m[1mPOST /api/upload_map HTTP/1.1[0m" 400 -
+2024-04-17 18:33:50,827 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 18:33:50] "[31m[1mGET /api/upload_map HTTP/1.1[0m" 405 -
+2024-04-17 18:34:08,210 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-17 18:34:08,290 INFO werkzeug  * Restarting with stat
+2024-04-17 18:34:09,695 WARNING werkzeug  * Debugger is active!
+2024-04-17 18:34:09,706 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-17 18:35:02,958 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 18:35:02] "GET /maps/create_map HTTP/1.1" 200 -
+2024-04-17 18:35:08,749 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 18:35:08] "[32mPOST /maps/create_map HTTP/1.1[0m" 302 -
+2024-04-17 18:35:08,774 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 18:35:08] "GET /maps/create_map HTTP/1.1" 200 -
+2024-04-17 18:35:30,673 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-17 18:35:30,735 INFO werkzeug  * Restarting with stat
+2024-04-17 18:35:33,467 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-17 18:35:33,469 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-17 18:35:33,472 INFO werkzeug  * Restarting with stat
+2024-04-17 18:35:34,449 WARNING werkzeug  * Debugger is active!
+2024-04-17 18:35:34,455 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-17 18:35:47,093 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 18:35:47] "[32mPOST /maps/create_map HTTP/1.1[0m" 302 -
+2024-04-17 18:35:47,162 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 18:35:47] "GET /maps/create_map HTTP/1.1" 200 -
+2024-04-17 20:52:53,606 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-17 20:52:53,607 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-17 20:52:53,609 INFO werkzeug  * Restarting with stat
+2024-04-17 20:52:54,024 WARNING werkzeug  * Debugger is active!
+2024-04-17 20:52:54,042 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-17 20:52:54,099 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 20:52:54] "GET /maps/create_map HTTP/1.1" 200 -
+2024-04-17 20:52:55,136 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 20:52:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-04-17 20:53:57,813 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 20:53:57] "[32mPOST /maps/create_map HTTP/1.1[0m" 302 -
+2024-04-17 20:53:57,828 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 20:53:57] "GET /maps/create_map HTTP/1.1" 200 -
+2024-04-17 20:54:26,648 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 20:54:26] "GET /maps/create_map HTTP/1.1" 200 -
+2024-04-17 20:54:31,089 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 20:54:31] "[32mPOST /maps/create_map HTTP/1.1[0m" 302 -
+2024-04-17 20:54:31,098 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 20:54:31] "GET /maps/create_map HTTP/1.1" 200 -
+2024-04-17 20:54:33,043 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 20:54:33] "[32mPOST /maps/create_map HTTP/1.1[0m" 302 -
+2024-04-17 20:54:33,053 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 20:54:33] "GET /maps/create_map HTTP/1.1" 200 -
+2024-04-17 20:54:43,144 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 20:54:43] "[32mPOST /maps/create_map HTTP/1.1[0m" 302 -
+2024-04-17 20:54:43,153 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 20:54:43] "GET /maps/create_map HTTP/1.1" 200 -
+2024-04-17 20:55:38,698 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 20:55:38] "[32mPOST /maps/create_map HTTP/1.1[0m" 302 -
+2024-04-17 20:55:38,710 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 20:55:38] "GET /maps/create_map HTTP/1.1" 200 -
+2024-04-17 20:55:47,103 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 20:55:47] "[32mPOST /maps/create_map HTTP/1.1[0m" 302 -
+2024-04-17 20:55:47,112 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 20:55:47] "GET /maps/create_map HTTP/1.1" 200 -
+2024-04-17 20:55:48,019 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 20:55:48] "[32mPOST /maps/create_map HTTP/1.1[0m" 302 -
+2024-04-17 20:55:48,027 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 20:55:48] "GET /maps/create_map HTTP/1.1" 200 -
+2024-04-17 20:55:48,377 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 20:55:48] "[32mPOST /maps/create_map HTTP/1.1[0m" 302 -
+2024-04-17 20:55:48,385 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 20:55:48] "GET /maps/create_map HTTP/1.1" 200 -
+2024-04-17 20:55:56,051 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 20:55:56] "[32mPOST /maps/create_map HTTP/1.1[0m" 302 -
+2024-04-17 20:55:56,059 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 20:55:56] "GET /maps/create_map HTTP/1.1" 200 -
+2024-04-17 20:57:07,433 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 20:57:07] "[32mPOST /maps/create_map HTTP/1.1[0m" 302 -
+2024-04-17 20:57:07,446 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 20:57:07] "GET /maps/create_map HTTP/1.1" 200 -
+2024-04-17 20:57:31,681 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 20:57:31] "GET /maps/create_map HTTP/1.1" 200 -
+2024-04-17 20:59:52,889 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-17 20:59:52,891 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-17 20:59:52,893 INFO werkzeug  * Restarting with stat
+2024-04-17 20:59:53,391 WARNING werkzeug  * Debugger is active!
+2024-04-17 20:59:53,398 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-17 20:59:53,452 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 20:59:53] "GET / HTTP/1.1" 200 -
+2024-04-17 20:59:57,489 ERROR root Maps don't found!
+2024-04-17 20:59:57,502 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 20:59:57] "GET /maps HTTP/1.1" 200 -
+2024-04-17 21:00:27,175 ERROR root Maps don't found!
+2024-04-17 21:00:27,183 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:00:27] "GET /maps HTTP/1.1" 200 -
+2024-04-17 21:00:31,720 ERROR root Maps don't found!
+2024-04-17 21:00:31,729 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:00:31] "GET /maps HTTP/1.1" 200 -
+2024-04-17 21:00:47,356 ERROR root Maps don't found!
+2024-04-17 21:00:47,363 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:00:47] "GET /maps HTTP/1.1" 200 -
+2024-04-17 21:00:53,231 ERROR root Maps don't found!
+2024-04-17 21:00:53,236 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:00:53] "GET /maps HTTP/1.1" 200 -
+2024-04-17 21:02:06,602 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-17 21:02:06,761 INFO werkzeug  * Restarting with stat
+2024-04-17 21:02:08,671 WARNING werkzeug  * Debugger is active!
+2024-04-17 21:02:08,691 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-17 21:03:42,409 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-17 21:03:42,720 INFO werkzeug  * Restarting with stat
+2024-04-17 21:03:43,396 WARNING werkzeug  * Debugger is active!
+2024-04-17 21:03:43,414 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-17 21:03:51,152 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-17 21:03:51,220 INFO werkzeug  * Restarting with stat
+2024-04-17 21:03:51,698 WARNING werkzeug  * Debugger is active!
+2024-04-17 21:03:51,704 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-17 21:04:00,024 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-17 21:04:00,224 INFO werkzeug  * Restarting with stat
+2024-04-17 21:04:01,138 WARNING werkzeug  * Debugger is active!
+2024-04-17 21:04:01,142 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-17 21:04:50,529 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-17 21:04:50,593 INFO werkzeug  * Restarting with stat
+2024-04-17 21:04:51,018 WARNING werkzeug  * Debugger is active!
+2024-04-17 21:04:51,027 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-17 21:05:04,464 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-17 21:05:04,508 INFO werkzeug  * Restarting with stat
+2024-04-17 21:05:05,747 WARNING werkzeug  * Debugger is active!
+2024-04-17 21:05:05,750 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-17 21:05:13,053 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-17 21:05:13,205 INFO werkzeug  * Restarting with stat
+2024-04-17 21:05:14,405 WARNING werkzeug  * Debugger is active!
+2024-04-17 21:05:14,409 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-17 21:05:18,816 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-17 21:05:19,248 INFO werkzeug  * Restarting with stat
+2024-04-17 21:05:19,793 WARNING werkzeug  * Debugger is active!
+2024-04-17 21:05:19,797 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-17 21:05:30,751 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:05:30] "GET / HTTP/1.1" 200 -
+2024-04-17 21:05:36,302 ERROR root Maps don't found!
+2024-04-17 21:05:36,415 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:05:36] "[35m[1mGET /maps HTTP/1.1[0m" 500 -
+2024-04-17 21:05:36,644 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:05:36] "[36mGET /maps?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-17 21:05:36,659 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:05:36] "[36mGET /maps?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-17 21:05:36,779 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:05:36] "[36mGET /maps?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-17 21:05:37,394 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:05:37] "[36mGET /maps?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-17 21:06:13,291 ERROR root Maps don't found!
+2024-04-17 21:06:13,299 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:06:13] "GET /maps HTTP/1.1" 200 -
+2024-04-17 21:31:24,647 ERROR root Maps don't found!
+2024-04-17 21:31:24,648 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:31:24] "GET /maps HTTP/1.1" 200 -
+2024-04-17 21:31:29,852 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-17 21:31:29,855 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-17 21:31:29,858 INFO werkzeug  * Restarting with stat
+2024-04-17 21:31:30,741 WARNING werkzeug  * Debugger is active!
+2024-04-17 21:31:30,762 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-17 21:31:31,050 ERROR root Maps don't found!
+2024-04-17 21:31:31,073 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:31:31] "GET /maps HTTP/1.1" 200 -
+2024-04-17 21:32:40,825 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-17 21:32:40,885 INFO werkzeug  * Restarting with stat
+2024-04-17 21:32:41,387 WARNING werkzeug  * Debugger is active!
+2024-04-17 21:32:41,391 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-17 21:32:46,077 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-17 21:32:46,080 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-17 21:32:46,084 INFO werkzeug  * Restarting with stat
+2024-04-17 21:32:46,827 WARNING werkzeug  * Debugger is active!
+2024-04-17 21:32:46,832 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-17 21:32:46,881 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:32:46] "GET / HTTP/1.1" 200 -
+2024-04-17 21:32:48,917 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:32:48] "GET /login HTTP/1.1" 200 -
+2024-04-17 21:32:50,351 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:32:50] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-04-17 21:32:50,361 DEBUG root User load: 6
+2024-04-17 21:32:50,362 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:32:50] "GET / HTTP/1.1" 200 -
+2024-04-17 21:33:04,545 DEBUG root User load: 6
+2024-04-17 21:33:04,546 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:33:04] "GET / HTTP/1.1" 200 -
+2024-04-17 21:33:05,496 ERROR root Maps don't found!
+2024-04-17 21:33:05,513 DEBUG root User load: 6
+2024-04-17 21:33:05,514 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:33:05] "GET /maps HTTP/1.1" 200 -
+2024-04-17 21:33:14,240 DEBUG root User load: 6
+2024-04-17 21:33:14,241 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:33:14] "GET / HTTP/1.1" 200 -
+2024-04-17 21:34:06,336 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-17 21:34:06,351 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-17 21:34:06,354 INFO werkzeug  * Restarting with stat
+2024-04-17 21:34:06,872 WARNING werkzeug  * Debugger is active!
+2024-04-17 21:34:06,876 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-17 21:34:07,444 DEBUG root User load: 6
+2024-04-17 21:34:07,446 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:34:07] "GET / HTTP/1.1" 200 -
+2024-04-17 21:34:09,164 DEBUG root User load: 6
+2024-04-17 21:34:09,174 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:34:09] "GET /profile HTTP/1.1" 200 -
+2024-04-17 21:34:16,909 ERROR root Maps don't found!
+2024-04-17 21:34:16,917 DEBUG root User load: 6
+2024-04-17 21:34:16,919 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:34:16] "GET /maps HTTP/1.1" 200 -
+2024-04-17 21:34:18,549 DEBUG root User load: 6
+2024-04-17 21:34:18,550 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:34:18] "GET / HTTP/1.1" 200 -
+2024-04-17 21:34:20,222 DEBUG root User load: 6
+2024-04-17 21:34:20,224 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:34:20] "GET / HTTP/1.1" 200 -
+2024-04-17 21:34:21,294 DEBUG root User load: 6
+2024-04-17 21:34:21,294 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:34:21] "GET /profile HTTP/1.1" 200 -
+2024-04-17 21:34:24,186 DEBUG root User load: 6
+2024-04-17 21:34:24,187 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:34:24] "GET / HTTP/1.1" 200 -
+2024-04-17 21:35:06,113 ERROR root Maps don't found!
+2024-04-17 21:35:06,114 DEBUG root User load: 6
+2024-04-17 21:35:06,115 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:35:06] "GET /maps HTTP/1.1" 200 -
+2024-04-17 21:35:22,274 DEBUG root User load: 6
+2024-04-17 21:35:22,275 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:35:22] "GET / HTTP/1.1" 200 -
+2024-04-17 21:35:23,440 DEBUG root User load: 6
+2024-04-17 21:35:23,441 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:35:23] "GET /profile HTTP/1.1" 200 -
+2024-04-17 21:35:30,560 DEBUG root User load: 6
+2024-04-17 21:35:30,561 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:35:30] "GET / HTTP/1.1" 200 -
+2024-04-17 21:35:35,434 DEBUG root User load: 6
+2024-04-17 21:35:35,437 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:35:35] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-04-17 21:35:35,447 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:35:35] "GET /login HTTP/1.1" 200 -
+2024-04-17 21:35:55,111 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:35:55] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-04-17 21:35:55,119 DEBUG root User load: 6
+2024-04-17 21:35:55,120 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:35:55] "GET / HTTP/1.1" 200 -
+2024-04-17 21:35:56,515 DEBUG root User load: 6
+2024-04-17 21:35:56,517 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:35:56] "GET /profile HTTP/1.1" 200 -
+2024-04-17 21:36:05,228 DEBUG root User load: 6
+2024-04-17 21:36:05,229 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:36:05] "GET / HTTP/1.1" 200 -
+2024-04-17 21:36:06,068 DEBUG root User load: 6
+2024-04-17 21:36:06,069 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:36:06] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-04-17 21:36:06,078 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:36:06] "GET /login HTTP/1.1" 200 -
+2024-04-17 21:36:09,036 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:36:09] "GET / HTTP/1.1" 200 -
+2024-04-17 21:36:27,151 INFO werkzeug 127.0.0.1 - - [17/Apr/2024 21:36:27] "GET /registration HTTP/1.1" 200 -
+2024-04-18 21:04:11,206 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-18 21:04:11,207 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-18 21:04:11,209 INFO werkzeug  * Restarting with stat
+2024-04-18 21:04:12,009 WARNING werkzeug  * Debugger is active!
+2024-04-18 21:04:12,022 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-18 21:04:13,188 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:04:13] "GET / HTTP/1.1" 200 -
+2024-04-18 21:04:13,515 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:04:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-04-18 21:04:17,792 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:04:17] "GET /login HTTP/1.1" 200 -
+2024-04-18 21:04:20,034 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:04:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-04-18 21:04:20,044 DEBUG root User load: 6
+2024-04-18 21:04:20,045 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:04:20] "GET / HTTP/1.1" 200 -
+2024-04-18 21:04:21,404 ERROR root Maps don't found!
+2024-04-18 21:04:21,428 DEBUG root User load: 6
+2024-04-18 21:04:21,429 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:04:21] "GET /maps HTTP/1.1" 200 -
+2024-04-18 21:04:27,621 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:04:27] "[32mPOST /maps/upload_map HTTP/1.1[0m" 302 -
+2024-04-18 21:04:27,630 ERROR root Maps don't found!
+2024-04-18 21:04:27,630 DEBUG root User load: 6
+2024-04-18 21:04:27,631 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:04:27] "GET /maps HTTP/1.1" 200 -
+2024-04-18 21:04:43,958 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-18 21:04:44,090 INFO werkzeug  * Restarting with stat
+2024-04-18 21:04:46,167 WARNING werkzeug  * Debugger is active!
+2024-04-18 21:04:46,177 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-18 21:04:46,379 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-18 21:04:46,495 INFO werkzeug  * Restarting with stat
+2024-04-18 21:04:48,025 WARNING werkzeug  * Debugger is active!
+2024-04-18 21:04:48,031 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-18 21:04:58,754 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-18 21:04:58,999 INFO werkzeug  * Restarting with stat
+2024-04-18 21:05:00,427 WARNING werkzeug  * Debugger is active!
+2024-04-18 21:05:00,432 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-18 21:05:01,821 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-18 21:05:01,824 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-18 21:05:01,826 INFO werkzeug  * Restarting with stat
+2024-04-18 21:05:02,493 WARNING werkzeug  * Debugger is active!
+2024-04-18 21:05:02,497 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-18 21:05:05,587 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:05:05] "[32mPOST /maps/upload_map HTTP/1.1[0m" 302 -
+2024-04-18 21:05:05,596 ERROR root Maps don't found!
+2024-04-18 21:05:05,608 DEBUG root User load: 6
+2024-04-18 21:05:05,612 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:05:05] "GET /maps HTTP/1.1" 200 -
+2024-04-18 21:05:56,006 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-18 21:05:56,008 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-18 21:05:56,014 INFO werkzeug  * Restarting with stat
+2024-04-18 21:05:57,195 WARNING werkzeug  * Debugger is active!
+2024-04-18 21:05:57,199 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-18 21:06:01,210 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:06:01] "[32mPOST /maps/upload_map HTTP/1.1[0m" 302 -
+2024-04-18 21:06:01,219 ERROR root Maps don't found!
+2024-04-18 21:06:01,228 DEBUG root User load: 6
+2024-04-18 21:06:01,230 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:06:01] "GET /maps HTTP/1.1" 200 -
+2024-04-18 21:08:09,462 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-18 21:08:09,507 INFO werkzeug  * Restarting with stat
+2024-04-18 21:08:09,918 WARNING werkzeug  * Debugger is active!
+2024-04-18 21:08:09,922 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-18 21:09:53,034 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-18 21:09:53,035 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-18 21:09:53,037 INFO werkzeug  * Restarting with stat
+2024-04-18 21:09:53,585 WARNING werkzeug  * Debugger is active!
+2024-04-18 21:09:53,590 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-18 21:09:57,235 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:09:57] "[32mPOST /maps/upload_map HTTP/1.1[0m" 302 -
+2024-04-18 21:09:57,250 ERROR root Maps don't found!
+2024-04-18 21:09:57,264 DEBUG root User load: 6
+2024-04-18 21:09:57,268 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:09:57] "GET /maps HTTP/1.1" 200 -
+2024-04-18 21:10:12,407 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:10:12] "[32mPOST /maps/upload_map HTTP/1.1[0m" 302 -
+2024-04-18 21:10:12,416 ERROR root Maps don't found!
+2024-04-18 21:10:12,417 DEBUG root User load: 6
+2024-04-18 21:10:12,418 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:10:12] "GET /maps HTTP/1.1" 200 -
+2024-04-18 21:10:29,365 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-18 21:10:29,367 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-18 21:10:29,368 INFO werkzeug  * Restarting with stat
+2024-04-18 21:10:29,875 WARNING werkzeug  * Debugger is active!
+2024-04-18 21:10:29,880 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-18 21:10:31,070 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:10:31] "[32mPOST /maps/upload_map HTTP/1.1[0m" 302 -
+2024-04-18 21:10:31,076 ERROR root Maps don't found!
+2024-04-18 21:10:31,086 DEBUG root User load: 6
+2024-04-18 21:10:31,089 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:10:31] "GET /maps HTTP/1.1" 200 -
+2024-04-18 21:11:19,010 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-18 21:11:19,014 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-18 21:11:19,016 INFO werkzeug  * Restarting with stat
+2024-04-18 21:11:19,640 WARNING werkzeug  * Debugger is active!
+2024-04-18 21:11:19,646 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-18 21:11:25,095 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:11:25] "[32mPOST /maps/upload_map HTTP/1.1[0m" 302 -
+2024-04-18 21:11:25,102 ERROR root Maps don't found!
+2024-04-18 21:11:25,109 DEBUG root User load: 6
+2024-04-18 21:11:25,112 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:11:25] "GET /maps HTTP/1.1" 200 -
+2024-04-18 21:11:55,904 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-18 21:11:55,953 INFO werkzeug  * Restarting with stat
+2024-04-18 21:12:06,437 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-18 21:12:06,448 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-18 21:12:06,475 INFO werkzeug  * Restarting with stat
+2024-04-18 21:12:07,051 WARNING werkzeug  * Debugger is active!
+2024-04-18 21:12:07,056 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-18 21:12:11,198 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:12:11] "[32mPOST /maps/upload_map HTTP/1.1[0m" 302 -
+2024-04-18 21:12:11,210 ERROR root Maps don't found!
+2024-04-18 21:12:11,219 DEBUG root User load: 6
+2024-04-18 21:12:11,223 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:12:11] "GET /maps HTTP/1.1" 200 -
+2024-04-18 21:12:53,973 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-18 21:12:54,014 INFO werkzeug  * Restarting with stat
+2024-04-18 21:13:21,503 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-18 21:13:21,505 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-18 21:13:21,508 INFO werkzeug  * Restarting with stat
+2024-04-18 21:13:22,079 WARNING werkzeug  * Debugger is active!
+2024-04-18 21:13:22,086 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-18 21:13:25,365 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:13:25] "[32mPOST /maps/upload_map HTTP/1.1[0m" 302 -
+2024-04-18 21:13:25,374 ERROR root Maps don't found!
+2024-04-18 21:13:25,383 DEBUG root User load: 6
+2024-04-18 21:13:25,385 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:13:25] "GET /maps HTTP/1.1" 200 -
+2024-04-18 21:14:07,551 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-18 21:14:07,600 INFO werkzeug  * Restarting with stat
+2024-04-18 21:29:03,761 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-18 21:29:03,762 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-18 21:29:03,764 INFO werkzeug  * Restarting with stat
+2024-04-18 21:29:04,571 WARNING werkzeug  * Debugger is active!
+2024-04-18 21:29:04,578 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-18 21:29:13,301 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:29:13] "[32mPOST /maps/upload_map HTTP/1.1[0m" 302 -
+2024-04-18 21:29:13,317 ERROR root Maps don't found!
+2024-04-18 21:29:13,328 DEBUG root User load: 6
+2024-04-18 21:29:13,333 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:29:13] "GET /maps HTTP/1.1" 200 -
+2024-04-18 21:30:08,439 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:30:08] "[32mPOST /maps/upload_map HTTP/1.1[0m" 302 -
+2024-04-18 21:30:08,449 ERROR root Maps don't found!
+2024-04-18 21:30:08,449 DEBUG root User load: 6
+2024-04-18 21:30:08,450 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:30:08] "GET /maps HTTP/1.1" 200 -
+2024-04-18 21:30:50,732 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\DataBaseManager.py', reloading
+2024-04-18 21:30:50,979 INFO werkzeug  * Restarting with stat
+2024-04-18 21:30:51,648 WARNING werkzeug  * Debugger is active!
+2024-04-18 21:30:51,652 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-18 21:30:57,881 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-18 21:30:57,993 INFO werkzeug  * Restarting with stat
+2024-04-18 21:30:58,967 WARNING werkzeug  * Debugger is active!
+2024-04-18 21:30:58,972 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-18 21:31:16,333 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:31:16] "[32mPOST /maps/upload_map HTTP/1.1[0m" 302 -
+2024-04-18 21:31:16,345 ERROR root Maps don't found!
+2024-04-18 21:31:16,356 DEBUG root User load: 6
+2024-04-18 21:31:16,359 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:31:16] "GET /maps HTTP/1.1" 200 -
+2024-04-18 21:31:48,773 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-18 21:31:49,072 INFO werkzeug  * Restarting with stat
+2024-04-18 21:31:49,802 WARNING werkzeug  * Debugger is active!
+2024-04-18 21:31:49,806 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-18 21:31:54,532 ERROR root User don't found: test1@gmail.com
+
+2024-04-18 21:31:54,533 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:31:54] "[32mPOST /maps/upload_map HTTP/1.1[0m" 302 -
+2024-04-18 21:31:54,540 ERROR root Maps don't found!
+2024-04-18 21:31:54,548 DEBUG root User load: 6
+2024-04-18 21:31:54,551 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:31:54] "GET /maps HTTP/1.1" 200 -
+2024-04-18 21:34:36,350 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-18 21:34:36,472 INFO werkzeug  * Restarting with stat
+2024-04-18 21:34:37,215 WARNING werkzeug  * Debugger is active!
+2024-04-18 21:34:37,219 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-18 21:34:44,547 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:34:44] "[32mPOST /maps/upload_map HTTP/1.1[0m" 302 -
+2024-04-18 21:34:44,556 ERROR root Maps don't found!
+2024-04-18 21:34:44,565 DEBUG root User load: 6
+2024-04-18 21:34:44,569 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:34:44] "GET /maps HTTP/1.1" 200 -
+2024-04-18 21:35:36,730 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-18 21:35:36,769 INFO werkzeug  * Restarting with stat
+2024-04-18 21:35:37,157 WARNING werkzeug  * Debugger is active!
+2024-04-18 21:35:37,161 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-18 21:35:38,279 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-18 21:35:38,385 INFO werkzeug  * Restarting with stat
+2024-04-18 21:35:39,013 WARNING werkzeug  * Debugger is active!
+2024-04-18 21:35:39,017 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-18 21:35:44,820 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:35:44] "[35m[1mPOST /maps/upload_map HTTP/1.1[0m" 500 -
+2024-04-18 21:35:45,007 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:35:45] "GET /maps/upload_map?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-18 21:35:45,033 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:35:45] "GET /maps/upload_map?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-18 21:35:45,054 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:35:45] "GET /maps/upload_map?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-18 21:35:45,341 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:35:45] "[36mGET /maps/upload_map?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-18 21:36:51,371 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-18 21:36:51,709 INFO werkzeug  * Restarting with stat
+2024-04-18 21:36:52,461 WARNING werkzeug  * Debugger is active!
+2024-04-18 21:36:52,465 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-18 21:36:54,323 DEBUG root User load: 6
+2024-04-18 21:36:54,334 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:36:54] "GET / HTTP/1.1" 200 -
+2024-04-18 21:36:55,439 ERROR root Maps don't found!
+2024-04-18 21:36:55,445 DEBUG root User load: 6
+2024-04-18 21:36:55,446 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:36:55] "GET /maps HTTP/1.1" 200 -
+2024-04-18 21:36:59,199 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:36:59] "[32mPOST /maps/upload_map HTTP/1.1[0m" 302 -
+2024-04-18 21:36:59,210 ERROR root Maps don't found!
+2024-04-18 21:36:59,210 DEBUG root User load: 6
+2024-04-18 21:36:59,211 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:36:59] "GET /maps HTTP/1.1" 200 -
+2024-04-18 21:37:14,532 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-18 21:37:14,598 INFO werkzeug  * Restarting with stat
+2024-04-18 21:37:15,335 WARNING werkzeug  * Debugger is active!
+2024-04-18 21:37:15,340 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-18 21:37:34,095 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-18 21:37:34,270 INFO werkzeug  * Restarting with stat
+2024-04-18 21:37:34,968 WARNING werkzeug  * Debugger is active!
+2024-04-18 21:37:34,972 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-18 21:37:38,115 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-18 21:37:38,164 INFO werkzeug  * Restarting with stat
+2024-04-18 21:37:40,043 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-18 21:37:40,045 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-18 21:37:40,047 INFO werkzeug  * Restarting with stat
+2024-04-18 21:37:40,902 WARNING werkzeug  * Debugger is active!
+2024-04-18 21:37:40,908 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-18 21:37:44,945 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:37:44] "[35m[1mPOST /maps/upload_map HTTP/1.1[0m" 500 -
+2024-04-18 21:37:45,120 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:37:45] "[36mGET /maps/upload_map?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-18 21:37:45,121 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:37:45] "[36mGET /maps/upload_map?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-18 21:37:45,205 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:37:45] "[36mGET /maps/upload_map?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-18 21:37:56,615 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-18 21:37:56,713 INFO werkzeug  * Restarting with stat
+2024-04-18 21:37:57,472 WARNING werkzeug  * Debugger is active!
+2024-04-18 21:37:57,480 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-18 21:37:58,861 ERROR root Maps don't found!
+2024-04-18 21:37:58,869 DEBUG root User load: 6
+2024-04-18 21:37:58,872 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:37:58] "GET /maps HTTP/1.1" 200 -
+2024-04-18 21:38:06,282 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:38:06] "[32mPOST /maps/upload_map HTTP/1.1[0m" 302 -
+2024-04-18 21:38:06,292 ERROR root Maps don't found!
+2024-04-18 21:38:06,292 DEBUG root User load: 6
+2024-04-18 21:38:06,294 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:38:06] "GET /maps HTTP/1.1" 200 -
+2024-04-18 21:38:17,028 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-18 21:38:17,119 INFO werkzeug  * Restarting with stat
+2024-04-18 21:38:17,661 WARNING werkzeug  * Debugger is active!
+2024-04-18 21:38:17,666 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-18 21:38:37,251 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-18 21:38:37,360 INFO werkzeug  * Restarting with stat
+2024-04-18 21:59:39,954 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-18 21:59:39,955 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-18 21:59:39,958 INFO werkzeug  * Restarting with stat
+2024-04-18 21:59:40,527 WARNING werkzeug  * Debugger is active!
+2024-04-18 21:59:40,531 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-18 21:59:43,615 ERROR root Maps don't found!
+2024-04-18 21:59:43,624 DEBUG root User load: 6
+2024-04-18 21:59:43,626 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:59:43] "GET /maps HTTP/1.1" 200 -
+2024-04-18 21:59:47,776 INFO root The 1 map was added by the user 6
+2024-04-18 21:59:47,778 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:59:47] "[32mPOST /maps/upload_map HTTP/1.1[0m" 302 -
+2024-04-18 21:59:47,789 DEBUG root User load: 6
+2024-04-18 21:59:47,792 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 21:59:47] "GET /maps HTTP/1.1" 200 -
+2024-04-18 22:05:08,257 DEBUG root User load: 6
+2024-04-18 22:05:08,258 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 22:05:08] "GET /maps HTTP/1.1" 200 -
+2024-04-18 22:05:19,676 DEBUG root User load: 6
+2024-04-18 22:05:19,678 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 22:05:19] "GET /maps HTTP/1.1" 200 -
+2024-04-18 22:05:54,423 DEBUG root User load: 6
+2024-04-18 22:05:54,424 INFO werkzeug 127.0.0.1 - - [18/Apr/2024 22:05:54] "GET /maps HTTP/1.1" 200 -
+2024-04-19 18:34:40,636 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-19 18:34:40,637 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-19 18:34:40,651 INFO werkzeug  * Restarting with stat
+2024-04-19 18:34:41,704 WARNING werkzeug  * Debugger is active!
+2024-04-19 18:34:41,719 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-19 18:34:42,551 DEBUG root User load: 6
+2024-04-19 18:34:42,584 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 18:34:42] "GET / HTTP/1.1" 200 -
+2024-04-19 18:34:43,095 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 18:34:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-04-19 18:34:43,532 DEBUG root User load: 6
+2024-04-19 18:34:43,533 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 18:34:43] "GET /maps HTTP/1.1" 200 -
+2024-04-19 18:37:14,651 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-19 18:37:15,102 INFO werkzeug  * Restarting with stat
+2024-04-19 18:49:01,629 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-19 18:49:01,630 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-19 18:49:01,633 INFO werkzeug  * Restarting with stat
+2024-04-19 18:49:02,218 WARNING werkzeug  * Debugger is active!
+2024-04-19 18:49:02,247 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-19 18:49:03,925 DEBUG root User load: 6
+2024-04-19 18:49:03,929 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 18:49:03] "GET / HTTP/1.1" 200 -
+2024-04-19 18:49:04,778 DEBUG root User load: 6
+2024-04-19 18:49:04,788 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 18:49:04] "GET /maps HTTP/1.1" 200 -
+2024-04-19 18:49:06,302 DEBUG root User load: 6
+2024-04-19 18:49:06,386 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 18:49:06] "[35m[1mGET /maps/1 HTTP/1.1[0m" 500 -
+2024-04-19 18:49:06,548 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 18:49:06] "GET /maps/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-19 18:49:06,562 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 18:49:06] "GET /maps/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-19 18:49:06,636 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 18:49:06] "GET /maps/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-19 18:49:06,901 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 18:49:06] "[36mGET /maps/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-19 18:49:46,697 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-19 18:49:46,769 INFO werkzeug  * Restarting with stat
+2024-04-19 18:49:50,226 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-19 18:49:50,226 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-19 18:49:50,229 INFO werkzeug  * Restarting with stat
+2024-04-19 18:49:50,843 WARNING werkzeug  * Debugger is active!
+2024-04-19 18:49:50,852 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-19 18:49:52,340 DEBUG root User load: 6
+2024-04-19 18:49:52,362 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 18:49:52] "[35m[1mGET /maps/1 HTTP/1.1[0m" 500 -
+2024-04-19 18:49:52,509 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 18:49:52] "[36mGET /maps/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-19 18:49:52,521 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 18:49:52] "[36mGET /maps/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-19 18:49:52,567 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 18:49:52] "[36mGET /maps/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-19 18:49:52,832 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 18:49:52] "[36mGET /maps/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-19 18:50:02,439 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-19 18:50:02,533 INFO werkzeug  * Restarting with stat
+2024-04-19 18:50:06,013 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-19 18:50:06,014 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-19 18:50:06,019 INFO werkzeug  * Restarting with stat
+2024-04-19 18:50:06,898 WARNING werkzeug  * Debugger is active!
+2024-04-19 18:50:06,903 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-19 18:50:08,192 DEBUG root User load: 6
+2024-04-19 18:50:08,203 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 18:50:08] "GET /maps/1 HTTP/1.1" 200 -
+2024-04-19 18:50:47,909 DEBUG root User load: 6
+2024-04-19 18:50:47,915 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 18:50:47] "GET /maps/1 HTTP/1.1" 200 -
+2024-04-19 18:52:17,520 DEBUG root User load: 6
+2024-04-19 18:52:17,525 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 18:52:17] "GET /maps/1 HTTP/1.1" 200 -
+2024-04-19 18:52:47,330 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-19 18:52:47,423 INFO werkzeug  * Restarting with stat
+2024-04-19 18:53:52,111 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-19 18:53:52,111 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-19 18:53:52,112 INFO werkzeug  * Restarting with stat
+2024-04-19 18:53:52,502 WARNING werkzeug  * Debugger is active!
+2024-04-19 18:53:52,506 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-19 18:54:08,046 DEBUG root User load: 6
+2024-04-19 18:54:08,057 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 18:54:08] "GET /maps/1 HTTP/1.1" 200 -
+2024-04-19 18:55:41,722 DEBUG root User load: 6
+2024-04-19 18:55:41,723 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 18:55:41] "GET / HTTP/1.1" 200 -
+2024-04-19 18:55:43,944 DEBUG root User load: 6
+2024-04-19 18:55:43,946 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 18:55:43] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-04-19 18:55:43,974 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 18:55:43] "GET /login HTTP/1.1" 200 -
+2024-04-19 18:55:46,555 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 18:55:46] "GET / HTTP/1.1" 200 -
+2024-04-19 18:55:47,415 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 18:55:47] "GET /registration HTTP/1.1" 200 -
+    2024-04-19 18:56:14,298 ERROR root Sqlite3 error: test, test2@gmail.com, scrypt:32768:8:1$wlDtove66WjeyUKh$3ca2e2359e244a371718493006398d536706dc0df685e9232d6ab73d248ef1c2cae331c426508699f0b12c9aa7137639f3a3fa95ac2eabe300c25e4398a8a764, UNIQUE constraint failed: Users.nickname
+2024-04-19 18:56:14,301 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 18:56:14] "POST /registration HTTP/1.1" 200 -
+2024-04-19 18:58:31,309 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\DataBaseManager.py', reloading
+2024-04-19 18:58:31,374 INFO werkzeug  * Restarting with stat
+2024-04-19 18:58:32,493 WARNING werkzeug  * Debugger is active!
+2024-04-19 18:58:32,500 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-19 18:58:37,507 ERROR root Sqlite3 error: test, test1@gmail.com, scrypt:32768:8:1$upQPV9zH3cVy4tvP$ce4341816ae71a9396d8d82b0cc7f75d5b4fea0e13a09660975a5b31d510eda9d2decde7b83632ea81f3fad349f58aac83866802be2135b448b46f029a6c086d, UNIQUE constraint failed: Users.email
+2024-04-19 18:58:37,515 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 18:58:37] "POST /registration HTTP/1.1" 200 -
+2024-04-19 18:58:41,267 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-19 18:58:41,267 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-19 18:58:41,268 INFO werkzeug  * Restarting with stat
+2024-04-19 18:58:41,746 WARNING werkzeug  * Debugger is active!
+2024-04-19 18:58:41,750 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-19 18:58:47,249 ERROR root Sqlite3 error: test, test1@gmail.com, scrypt:32768:8:1$N3cuHrLbMYG07hxa$7649dcd20b303df6fdd2d72ed015bf99f70b4f83e24ae8d68e24275597419eeb2ae83e31fa0d320a8382f061d5879558f2e8344893179e490a8f3c35a25c9f01, UNIQUE constraint failed: Users.email
+2024-04-19 18:58:47,255 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 18:58:47] "POST /registration HTTP/1.1" 200 -
+2024-04-19 18:59:06,429 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\DataBaseManager.py', reloading
+2024-04-19 18:59:06,471 INFO werkzeug  * Restarting with stat
+2024-04-19 18:59:07,141 WARNING werkzeug  * Debugger is active!
+2024-04-19 18:59:07,153 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-19 19:10:47,519 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\DataBaseManager.py', reloading
+2024-04-19 19:10:47,679 INFO werkzeug  * Restarting with stat
+2024-04-19 19:10:48,259 WARNING werkzeug  * Debugger is active!
+2024-04-19 19:10:48,264 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-19 19:10:50,313 ERROR root Sqlite3 error: test, test1@gmail.com, scrypt:32768:8:1$XVZcipuplq2a0O5B$320c48dde47db5ca0471e2fdd5d1e5bda969ec49ddaf0319528dd30dc1cd7a5e767058f802904f0ab17a26de186a347f2f339f5ca5f602112d3f9b5d2c1cf9ad, UNIQUE constraint failed: Users.email
+2024-04-19 19:10:50,321 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 19:10:50] "POST /registration HTTP/1.1" 200 -
+2024-04-19 19:13:25,674 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\DataBaseManager.py', reloading
+2024-04-19 19:13:25,719 INFO werkzeug  * Restarting with stat
+2024-04-19 19:13:26,291 WARNING werkzeug  * Debugger is active!
+2024-04-19 19:13:26,296 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-19 19:13:34,782 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\DataBaseManager.py', reloading
+2024-04-19 19:13:34,912 INFO werkzeug  * Restarting with stat
+2024-04-19 19:13:35,479 WARNING werkzeug  * Debugger is active!
+2024-04-19 19:13:35,482 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-19 19:14:01,040 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-19 19:14:01,040 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-19 19:14:01,044 INFO werkzeug  * Restarting with stat
+2024-04-19 19:14:01,883 WARNING werkzeug  * Debugger is active!
+2024-04-19 19:14:01,888 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-19 19:14:03,934 ERROR root Sqlite3 error: test, test1@gmail.com, scrypt:32768:8:1$p9SIKP8l0OVTo2xG$5f031c305e188095f9855e504839c31e90dc4e39790e51bad335843b740927b971b590669da634b8d33951aac9f2d70e150cfb79aad9532b594deb0da0913e80, UNIQUE constraint failed: Users.email
+2024-04-19 19:14:03,935 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 19:14:03] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-04-19 19:14:03,953 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 19:14:03] "GET / HTTP/1.1" 200 -
+2024-04-19 19:14:27,675 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-19 19:14:27,717 INFO werkzeug  * Restarting with stat
+2024-04-19 19:14:28,191 WARNING werkzeug  * Debugger is active!
+2024-04-19 19:14:28,198 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-19 19:14:30,433 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-19 19:14:30,433 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-19 19:14:30,436 INFO werkzeug  * Restarting with stat
+2024-04-19 19:14:31,839 WARNING werkzeug  * Debugger is active!
+2024-04-19 19:14:31,845 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-19 19:15:10,815 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-19 19:15:10,894 INFO werkzeug  * Restarting with stat
+2024-04-19 19:19:24,064 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-19 19:19:24,065 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-19 19:19:24,067 INFO werkzeug  * Restarting with stat
+2024-04-19 19:19:25,129 WARNING werkzeug  * Debugger is active!
+2024-04-19 19:19:25,143 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-19 19:19:32,779 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 19:19:32] "GET /registration HTTP/1.1" 200 -
+2024-04-19 19:19:35,969 ERROR root Sqlite3 error: test, test1@gmail.com, scrypt:32768:8:1$z33iinokgvEPqH3g$f5973aec4476d5636abaaf85c3acf335205c667626ed9e87350a2321f5ac10fd0bedbfaf5698fb84a2dc18690641f86d3cb3798ebfbcbbeca2d2860c01d4be10, UNIQUE constraint failed: Users.email
+2024-04-19 19:19:35,972 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 19:19:35] "POST /registration HTTP/1.1" 200 -
+2024-04-19 19:19:40,945 ERROR root Sqlite3 error: test3, test1@gmail.com, scrypt:32768:8:1$JwH2cIjG9Y1wqPVN$daaba255da6b3a35d89a93f97461701a0d5fe33987cfcc7115b2e23ae0f608bfe4a08ff29c659d725c2ad6c012e38274a6d66631a73749460fd9c2fe98b2c95f, UNIQUE constraint failed: Users.email
+2024-04-19 19:19:40,946 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 19:19:40] "POST /registration HTTP/1.1" 200 -
+2024-04-19 19:23:15,816 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\DataBaseManager.py', reloading
+2024-04-19 19:23:15,878 INFO werkzeug  * Restarting with stat
+2024-04-19 19:23:16,384 WARNING werkzeug  * Debugger is active!
+2024-04-19 19:23:16,388 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-19 19:23:20,961 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-19 19:23:20,961 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-19 19:23:20,962 INFO werkzeug  * Restarting with stat
+2024-04-19 19:23:21,415 WARNING werkzeug  * Debugger is active!
+2024-04-19 19:23:21,419 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-19 19:23:31,831 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 19:23:31] "GET / HTTP/1.1" 200 -
+2024-04-19 19:23:33,130 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 19:23:33] "GET /login HTTP/1.1" 200 -
+2024-04-19 19:23:35,372 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 19:23:35] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-04-19 19:23:35,382 DEBUG root User load: 6
+2024-04-19 19:23:35,383 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 19:23:35] "GET / HTTP/1.1" 200 -
+2024-04-19 19:23:36,371 DEBUG root User load: 6
+2024-04-19 19:23:36,381 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 19:23:36] "GET /maps HTTP/1.1" 200 -
+2024-04-19 19:23:37,535 DEBUG root User load: 6
+2024-04-19 19:23:37,545 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 19:23:37] "GET /maps/1 HTTP/1.1" 200 -
+2024-04-19 19:23:42,554 DEBUG root User load: 6
+2024-04-19 19:23:42,555 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 19:23:42] "GET / HTTP/1.1" 200 -
+2024-04-19 19:23:44,409 DEBUG root User load: 6
+2024-04-19 19:23:44,411 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 19:23:44] "GET /maps HTTP/1.1" 200 -
+2024-04-19 19:23:52,469 DEBUG root User load: 6
+2024-04-19 19:23:52,473 ERROR root Sqlite3 error: UNIQUE constraint failed: Maps.map
+2024-04-19 19:23:52,476 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 19:23:52] "[32mPOST /maps/upload_map HTTP/1.1[0m" 302 -
+2024-04-19 19:23:52,485 DEBUG root User load: 6
+2024-04-19 19:23:52,486 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 19:23:52] "GET /maps HTTP/1.1" 200 -
+2024-04-19 19:24:33,584 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\DataBaseManager.py', reloading
+2024-04-19 19:24:33,919 INFO werkzeug  * Restarting with stat
+2024-04-19 19:24:34,985 WARNING werkzeug  * Debugger is active!
+2024-04-19 19:24:34,992 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-19 19:25:07,910 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-19 19:25:07,981 INFO werkzeug  * Restarting with stat
+2024-04-19 19:25:08,734 WARNING werkzeug  * Debugger is active!
+2024-04-19 19:25:08,741 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-19 19:25:11,945 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-19 19:25:11,993 INFO werkzeug  * Restarting with stat
+2024-04-19 19:25:13,293 WARNING werkzeug  * Debugger is active!
+2024-04-19 19:25:13,298 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-19 19:25:32,810 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-19 19:25:32,890 INFO werkzeug  * Restarting with stat
+2024-04-19 19:25:33,632 WARNING werkzeug  * Debugger is active!
+2024-04-19 19:25:33,637 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-19 19:25:36,758 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-19 19:25:36,844 INFO werkzeug  * Restarting with stat
+2024-04-19 19:25:37,402 WARNING werkzeug  * Debugger is active!
+2024-04-19 19:25:37,406 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-19 19:26:12,365 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-19 19:26:12,404 INFO werkzeug  * Restarting with stat
+2024-04-19 19:26:56,848 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-19 19:26:56,849 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-19 19:26:56,851 INFO werkzeug  * Restarting with stat
+2024-04-19 19:26:57,507 WARNING werkzeug  * Debugger is active!
+2024-04-19 19:26:57,514 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-19 19:27:02,061 DEBUG root User load: 6
+2024-04-19 19:27:02,074 ERROR root Sqlite3 error: UNIQUE constraint failed: Maps.map
+2024-04-19 19:27:02,076 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 19:27:02] "[32mPOST /maps/upload_map HTTP/1.1[0m" 302 -
+2024-04-19 19:27:02,084 DEBUG root User load: 6
+2024-04-19 19:27:02,096 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 19:27:02] "GET /maps HTTP/1.1" 200 -
+2024-04-19 19:29:01,002 DEBUG root User load: 6
+2024-04-19 19:29:01,011 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 19:29:01] "GET /maps/1 HTTP/1.1" 200 -
+2024-04-19 19:29:02,893 DEBUG root User load: 6
+2024-04-19 19:29:02,894 INFO werkzeug 127.0.0.1 - - [19/Apr/2024 19:29:02] "GET /maps HTTP/1.1" 200 -
+2024-04-20 12:01:24,335 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-20 12:01:24,336 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-20 12:01:24,338 INFO werkzeug  * Restarting with stat
+2024-04-20 12:01:24,774 WARNING werkzeug  * Debugger is active!
+2024-04-20 12:01:24,790 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-20 12:01:28,582 DEBUG root User load: 6
+2024-04-20 12:01:28,641 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 12:01:28] "GET /maps HTTP/1.1" 200 -
+2024-04-20 12:01:28,847 DEBUG root User load: 6
+2024-04-20 12:01:28,849 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 12:01:28] "GET / HTTP/1.1" 200 -
+2024-04-20 12:01:29,056 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 12:01:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-04-20 12:01:39,440 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 12:01:39] "[35m[1mPOST /downloadcreater HTTP/1.1[0m" 500 -
+2024-04-20 12:01:39,606 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 12:01:39] "GET /downloadcreater?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-20 12:01:39,623 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 12:01:39] "GET /downloadcreater?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-20 12:01:39,676 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 12:01:39] "GET /downloadcreater?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-20 12:01:39,897 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 12:01:39] "[36mGET /downloadcreater?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-20 12:02:55,099 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-20 12:02:55,100 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-20 12:02:55,102 INFO werkzeug  * Restarting with stat
+2024-04-20 12:02:55,994 WARNING werkzeug  * Debugger is active!
+2024-04-20 12:02:56,001 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-20 12:03:00,456 DEBUG root User load: 6
+2024-04-20 12:03:00,461 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 12:03:00] "GET / HTTP/1.1" 200 -
+2024-04-20 12:03:01,627 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 12:03:01] "[35m[1mPOST /downloadcreater HTTP/1.1[0m" 500 -
+2024-04-20 12:03:01,759 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 12:03:01] "[36mGET /downloadcreater?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-20 12:03:01,760 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 12:03:01] "[36mGET /downloadcreater?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-20 12:03:01,792 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 12:03:01] "[36mGET /downloadcreater?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-20 12:03:25,119 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-20 12:03:25,119 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-20 12:03:25,123 INFO werkzeug  * Restarting with stat
+2024-04-20 12:03:26,278 WARNING werkzeug  * Debugger is active!
+2024-04-20 12:03:26,285 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-20 12:03:33,046 DEBUG root User load: 6
+2024-04-20 12:03:33,049 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 12:03:33] "GET / HTTP/1.1" 200 -
+2024-04-20 12:03:34,732 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 12:03:34] "[35m[1mPOST /downloadcreater HTTP/1.1[0m" 500 -
+2024-04-20 12:03:34,857 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 12:03:34] "[36mGET /downloadcreater?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-20 12:03:34,859 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 12:03:34] "[36mGET /downloadcreater?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-20 12:03:34,893 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 12:03:34] "[36mGET /downloadcreater?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-20 12:03:54,603 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 12:03:54] "POST /downloadcreater HTTP/1.1" 200 -
+2024-04-20 16:19:48,895 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-20 16:19:48,904 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-20 16:19:48,911 INFO werkzeug  * Restarting with stat
+2024-04-20 16:19:49,937 WARNING werkzeug  * Debugger is active!
+2024-04-20 16:19:49,957 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-20 16:19:51,985 DEBUG root User load: 6
+2024-04-20 16:19:52,052 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 16:19:52] "GET / HTTP/1.1" 200 -
+2024-04-20 16:19:52,607 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 16:19:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-04-20 16:42:25,100 DEBUG root User load: 6
+2024-04-20 16:42:25,107 ERROR root User don't found: 6
+2024-04-20 16:42:25,111 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 16:42:25] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-04-20 16:42:25,184 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 16:42:25] "GET /login HTTP/1.1" 200 -
+2024-04-20 16:42:26,937 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 16:42:26] "GET / HTTP/1.1" 200 -
+2024-04-20 16:42:28,303 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 16:42:28] "GET /registration HTTP/1.1" 200 -
+2024-04-20 16:45:38,208 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-20 16:45:38,291 INFO werkzeug  * Restarting with stat
+2024-04-20 16:45:39,144 WARNING werkzeug  * Debugger is active!
+2024-04-20 16:45:39,151 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-20 16:46:31,499 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-20 16:46:31,677 INFO werkzeug  * Restarting with stat
+2024-04-20 16:46:33,267 WARNING werkzeug  * Debugger is active!
+2024-04-20 16:46:33,272 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-20 16:46:55,942 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-20 16:46:56,019 INFO werkzeug  * Restarting with stat
+2024-04-20 16:46:57,548 WARNING werkzeug  * Debugger is active!
+2024-04-20 16:46:57,548 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-20 16:47:06,207 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-20 16:47:06,306 INFO werkzeug  * Restarting with stat
+2024-04-20 16:47:07,007 WARNING werkzeug  * Debugger is active!
+2024-04-20 16:47:07,017 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-20 16:47:12,591 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-20 16:47:12,721 INFO werkzeug  * Restarting with stat
+2024-04-20 16:47:14,744 WARNING werkzeug  * Debugger is active!
+2024-04-20 16:47:14,777 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-20 16:47:36,453 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\DataBaseManager.py', reloading
+2024-04-20 16:47:36,590 INFO werkzeug  * Restarting with stat
+2024-04-20 16:47:37,958 WARNING werkzeug  * Debugger is active!
+2024-04-20 16:47:37,966 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-20 16:47:50,791 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\DataBaseManager.py', reloading
+2024-04-20 16:47:50,977 INFO werkzeug  * Restarting with stat
+2024-04-20 16:47:52,134 WARNING werkzeug  * Debugger is active!
+2024-04-20 16:47:52,144 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-20 16:48:02,621 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\DataBaseManager.py', reloading
+2024-04-20 16:48:02,704 INFO werkzeug  * Restarting with stat
+2024-04-20 16:48:03,527 WARNING werkzeug  * Debugger is active!
+2024-04-20 16:48:03,533 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-20 16:48:33,843 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-20 16:48:34,028 INFO werkzeug  * Restarting with stat
+2024-04-20 16:48:35,014 WARNING werkzeug  * Debugger is active!
+2024-04-20 16:48:35,019 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-20 16:49:00,427 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 16:49:00] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-04-20 16:49:00,452 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 16:49:00] "GET /registration HTTP/1.1" 200 -
+2024-04-20 16:49:59,604 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-20 16:49:59,739 INFO werkzeug  * Restarting with stat
+2024-04-20 16:50:01,334 WARNING werkzeug  * Debugger is active!
+2024-04-20 16:50:01,345 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-20 16:50:11,881 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-20 16:50:11,988 INFO werkzeug  * Restarting with stat
+2024-04-20 16:50:13,338 WARNING werkzeug  * Debugger is active!
+2024-04-20 16:50:13,338 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-20 16:52:15,266 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-20 16:52:15,377 INFO werkzeug  * Restarting with stat
+2024-04-20 16:52:16,308 WARNING werkzeug  * Debugger is active!
+2024-04-20 16:52:16,319 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-20 16:54:02,468 INFO root User register: test, scrypt:32768:8:1$my9pT2q9WYDuxckH$ee544343c63eaaba3026a27900989b266992dbf09b58b61e44de96ce07175060a69e72d623c18b4fe73ab69602e359497ca198a431448f4903be24b29d7fd65b, test1@gmail.com, user.png
+2024-04-20 16:54:02,469 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 16:54:02] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-04-20 16:54:02,509 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 16:54:02] "GET / HTTP/1.1" 200 -
+2024-04-20 17:00:04,732 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\UserLogin.py', reloading
+2024-04-20 17:00:04,932 INFO werkzeug  * Restarting with stat
+2024-04-20 17:00:26,829 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-20 17:00:26,829 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-20 17:00:26,840 INFO werkzeug  * Restarting with stat
+2024-04-20 17:00:27,864 WARNING werkzeug  * Debugger is active!
+2024-04-20 17:00:27,872 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-20 17:00:29,483 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 17:00:29] "GET / HTTP/1.1" 200 -
+2024-04-20 17:00:34,567 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 17:00:34] "GET /login HTTP/1.1" 200 -
+2024-04-20 17:00:42,795 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 17:00:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-04-20 17:00:42,820 DEBUG root User load: 1
+2024-04-20 17:00:42,827 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 17:00:42] "GET / HTTP/1.1" 200 -
+2024-04-20 17:00:42,954 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 17:00:42] "[33mGET /data/upload/img/user.png HTTP/1.1[0m" 404 -
+2024-04-20 17:04:06,165 DEBUG root User load: 1
+2024-04-20 17:04:06,171 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 17:04:06] "GET / HTTP/1.1" 200 -
+2024-04-20 17:04:06,244 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 17:04:06] "[33mGET /data/upload/img/user.png HTTP/1.1[0m" 404 -
+2024-04-20 17:04:24,425 DEBUG root User load: 1
+2024-04-20 17:04:24,434 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 17:04:24] "GET / HTTP/1.1" 200 -
+2024-04-20 17:04:24,566 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 17:04:24] "[33mGET /data/upload/img/user.png HTTP/1.1[0m" 404 -
+2024-04-20 17:04:28,210 DEBUG root User load: 1
+2024-04-20 17:04:28,216 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 17:04:28] "GET / HTTP/1.1" 200 -
+2024-04-20 17:04:28,356 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 17:04:28] "[33mGET /data/upload/img/user.png HTTP/1.1[0m" 404 -
+2024-04-20 17:04:30,655 DEBUG root User load: 1
+2024-04-20 17:04:30,656 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 17:04:30] "GET / HTTP/1.1" 200 -
+2024-04-20 17:04:30,805 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 17:04:30] "[33mGET /data/upload/img/user.png HTTP/1.1[0m" 404 -
+2024-04-20 17:06:11,996 DEBUG root User load: 1
+2024-04-20 17:06:12,005 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 17:06:12] "GET / HTTP/1.1" 200 -
+2024-04-20 17:06:12,162 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 17:06:12] "[33mGET /data/upload/img/user.png HTTP/1.1[0m" 404 -
+2024-04-20 17:06:37,767 DEBUG root User load: 1
+2024-04-20 17:06:37,772 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 17:06:37] "GET / HTTP/1.1" 200 -
+2024-04-20 17:06:42,312 DEBUG root User load: 1
+2024-04-20 17:06:42,315 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 17:06:42] "GET / HTTP/1.1" 200 -
+2024-04-20 17:07:24,372 DEBUG root User load: 1
+2024-04-20 17:07:24,373 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 17:07:24] "GET / HTTP/1.1" 200 -
+2024-04-20 17:08:06,003 DEBUG root User load: 1
+2024-04-20 17:08:06,010 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 17:08:06] "GET / HTTP/1.1" 200 -
+2024-04-20 17:08:06,153 INFO werkzeug 127.0.0.1 - - [20/Apr/2024 17:08:06] "[33mGET /data/upload/img/user.png HTTP/1.1[0m" 404 -
+2024-04-24 16:05:18,869 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-24 16:05:18,869 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-24 16:05:18,871 INFO werkzeug  * Restarting with stat
+2024-04-24 16:05:19,259 WARNING werkzeug  * Debugger is active!
+2024-04-24 16:05:19,273 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-24 16:05:21,894 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:05:21] "GET / HTTP/1.1" 200 -
+2024-04-24 16:05:22,162 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:05:22] "GET /static/styles/index.css HTTP/1.1" 200 -
+2024-04-24 16:05:22,349 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:05:22] "[33mGET /static/styles/background.png HTTP/1.1[0m" 404 -
+2024-04-24 16:05:22,575 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:05:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-04-24 16:05:23,601 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:05:23] "GET /login HTTP/1.1" 200 -
+2024-04-24 16:05:23,656 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:05:23] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2024-04-24 16:05:23,811 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:05:23] "[33mGET /static/styles/background.png HTTP/1.1[0m" 404 -
+2024-04-24 16:05:25,341 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:05:25] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-04-24 16:05:25,349 DEBUG root User load: 1
+2024-04-24 16:05:25,350 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:05:25] "GET / HTTP/1.1" 200 -
+2024-04-24 16:05:25,389 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:05:25] "[33mGET /data/upload/img/user.png HTTP/1.1[0m" 404 -
+2024-04-24 16:05:25,390 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:05:25] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2024-04-24 16:05:37,990 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:05:37] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2024-04-24 16:07:48,249 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-24 16:07:48,379 INFO werkzeug  * Restarting with stat
+2024-04-24 16:07:48,809 WARNING werkzeug  * Debugger is active!
+2024-04-24 16:07:48,813 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-24 16:10:05,803 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\main.py', reloading
+2024-04-24 16:10:05,845 INFO werkzeug  * Restarting with stat
+2024-04-24 16:10:06,290 WARNING werkzeug  * Debugger is active!
+2024-04-24 16:10:06,294 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-24 16:10:44,993 DEBUG root User load: 1
+2024-04-24 16:10:45,007 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:10:45] "GET / HTTP/1.1" 200 -
+2024-04-24 16:10:45,081 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:10:45] "[33mGET /static/img/image.jpg HTTP/1.1[0m" 404 -
+2024-04-24 16:10:45,188 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:10:45] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2024-04-24 16:10:45,310 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:10:45] "[33mGET /static/styles/background.png HTTP/1.1[0m" 404 -
+2024-04-24 16:11:27,677 DEBUG root User load: 1
+2024-04-24 16:11:27,679 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:11:27] "GET / HTTP/1.1" 200 -
+2024-04-24 16:11:27,740 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:11:27] "[33mGET /static/img/{{%20user.get_avatar()%20}} HTTP/1.1[0m" 404 -
+2024-04-24 16:11:27,743 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:11:27] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2024-04-24 16:11:27,845 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:11:27] "[33mGET /static/styles/background.png HTTP/1.1[0m" 404 -
+2024-04-24 16:11:28,757 DEBUG root User load: 1
+2024-04-24 16:11:28,758 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:11:28] "GET / HTTP/1.1" 200 -
+2024-04-24 16:11:28,862 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:11:28] "[33mGET /static/img/{{%20user.get_avatar()%20}} HTTP/1.1[0m" 404 -
+2024-04-24 16:11:28,867 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:11:28] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2024-04-24 16:13:38,417 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\UserLogin.py', reloading
+2024-04-24 16:13:38,460 INFO werkzeug  * Restarting with stat
+2024-04-24 16:13:39,037 WARNING werkzeug  * Debugger is active!
+2024-04-24 16:13:39,045 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-24 16:14:13,018 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\UserLogin.py', reloading
+2024-04-24 16:14:13,092 INFO werkzeug  * Restarting with stat
+2024-04-24 16:14:13,995 WARNING werkzeug  * Debugger is active!
+2024-04-24 16:14:14,000 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-24 16:15:25,969 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\UserLogin.py', reloading
+2024-04-24 16:15:26,014 INFO werkzeug  * Restarting with stat
+2024-04-24 16:15:26,668 WARNING werkzeug  * Debugger is active!
+2024-04-24 16:15:26,672 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-24 16:15:32,027 INFO werkzeug  * Detected change in 'C:\\Users\\didovik\\PycharmProjects\\LittleHeroWeb\\src\\DataBaseManager.py', reloading
+2024-04-24 16:15:32,077 INFO werkzeug  * Restarting with stat
+2024-04-24 16:15:32,633 WARNING werkzeug  * Debugger is active!
+2024-04-24 16:15:32,639 INFO werkzeug  * Debugger PIN: 127-752-769
+2024-04-24 16:15:45,578 DEBUG root User load: 1
+2024-04-24 16:15:45,581 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:15:45] "GET / HTTP/1.1" 200 -
+2024-04-24 16:15:45,776 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:15:45] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2024-04-24 16:15:45,778 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:15:45] "GET /static/img/user.png HTTP/1.1" 200 -
+2024-04-24 16:15:45,962 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:15:45] "[33mGET /static/styles/background.png HTTP/1.1[0m" 404 -
+2024-04-24 16:16:04,570 DEBUG root User load: 1
+2024-04-24 16:16:04,571 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:16:04] "GET / HTTP/1.1" 200 -
+2024-04-24 16:16:04,622 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:16:04] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2024-04-24 16:16:04,631 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:16:04] "[36mGET /static/img/user.png HTTP/1.1[0m" 304 -
+2024-04-24 16:16:04,722 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:16:04] "[33mGET /static/styles/background.png HTTP/1.1[0m" 404 -
+2024-04-24 16:16:11,146 DEBUG root User load: 1
+2024-04-24 16:16:11,148 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:16:11] "GET / HTTP/1.1" 200 -
+2024-04-24 16:16:11,205 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:16:11] "[36mGET /static/img/user.png HTTP/1.1[0m" 304 -
+2024-04-24 16:16:11,206 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:16:11] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2024-04-24 16:16:17,651 DEBUG root User load: 1
+2024-04-24 16:16:17,652 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:16:17] "GET / HTTP/1.1" 200 -
+2024-04-24 16:16:17,786 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:16:17] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2024-04-24 16:16:17,792 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:16:17] "[36mGET /static/img/user.png HTTP/1.1[0m" 304 -
+2024-04-24 16:16:36,853 DEBUG root User load: 1
+2024-04-24 16:16:36,854 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:16:36] "GET / HTTP/1.1" 200 -
+2024-04-24 16:16:36,902 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:16:36] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2024-04-24 16:16:36,903 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 16:16:36] "[36mGET /static/img/user.png HTTP/1.1[0m" 304 -
+2024-04-24 17:09:41,275 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-24 17:09:41,276 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-24 17:09:41,279 INFO werkzeug  * Restarting with stat
+2024-04-24 17:09:42,091 WARNING werkzeug  * Debugger is active!
+2024-04-24 17:09:42,108 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-24 17:09:43,170 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:09:43] "GET / HTTP/1.1" 200 -
+2024-04-24 17:09:43,646 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:09:43] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2024-04-24 17:09:43,864 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:09:43] "[33mGET /static/styles/background.png HTTP/1.1[0m" 404 -
+2024-04-24 17:09:44,464 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:09:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-04-24 17:09:46,513 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:09:46] "GET /login HTTP/1.1" 200 -
+2024-04-24 17:09:46,653 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:09:46] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2024-04-24 17:09:46,843 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:09:46] "[33mGET /static/styles/background.png HTTP/1.1[0m" 404 -
+2024-04-24 17:09:49,076 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:09:49] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-04-24 17:09:49,097 DEBUG root User load: 1
+2024-04-24 17:09:49,106 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:09:49] "GET / HTTP/1.1" 200 -
+2024-04-24 17:09:49,249 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:09:49] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2024-04-24 17:09:49,276 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:09:49] "[36mGET /static/img/user.png HTTP/1.1[0m" 304 -
+2024-04-24 17:12:48,953 DEBUG root User load: 1
+2024-04-24 17:12:48,957 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:12:48] "GET / HTTP/1.1" 200 -
+2024-04-24 17:12:49,050 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:12:49] "GET /static/styles/index.css HTTP/1.1" 200 -
+2024-04-24 17:12:49,074 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:12:49] "[36mGET /static/img/user.png HTTP/1.1[0m" 304 -
+2024-04-24 17:12:49,144 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:12:49] "GET /static/styles/back.png HTTP/1.1" 200 -
+2024-04-24 17:18:32,344 DEBUG root User load: 1
+2024-04-24 17:18:32,347 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:18:32] "GET / HTTP/1.1" 200 -
+2024-04-24 17:18:32,434 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:18:32] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2024-04-24 17:18:32,441 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:18:32] "[36mGET /static/img/user.png HTTP/1.1[0m" 304 -
+2024-04-24 17:18:32,518 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:18:32] "[36mGET /static/styles/back.png HTTP/1.1[0m" 304 -
+2024-04-24 17:18:49,638 DEBUG root User load: 1
+2024-04-24 17:18:49,646 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:18:49] "GET / HTTP/1.1" 200 -
+2024-04-24 17:18:49,779 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:18:49] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2024-04-24 17:18:49,782 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:18:49] "[36mGET /static/img/user.png HTTP/1.1[0m" 304 -
+2024-04-24 17:18:49,987 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:18:49] "[36mGET /static/styles/back.png HTTP/1.1[0m" 304 -
+2024-04-24 17:23:16,408 DEBUG root User load: 1
+2024-04-24 17:23:16,413 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:23:16] "GET / HTTP/1.1" 200 -
+2024-04-24 17:23:16,531 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:23:16] "GET /static/styles/index.css HTTP/1.1" 200 -
+2024-04-24 17:23:16,531 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:23:16] "[36mGET /static/img/user.png HTTP/1.1[0m" 304 -
+2024-04-24 17:23:16,694 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:23:16] "[33mGET /static/styles/background.png HTTP/1.1[0m" 404 -
+2024-04-24 17:25:11,502 DEBUG root User load: 1
+2024-04-24 17:25:11,504 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:25:11] "GET / HTTP/1.1" 200 -
+2024-04-24 17:25:11,569 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:25:11] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2024-04-24 17:25:11,575 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:25:11] "[36mGET /static/img/user.png HTTP/1.1[0m" 304 -
+2024-04-24 17:25:11,638 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:25:11] "[33mGET /static/styles/background.png HTTP/1.1[0m" 404 -
+2024-04-24 17:26:49,380 DEBUG root User load: 1
+2024-04-24 17:26:49,389 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:26:49] "GET / HTTP/1.1" 200 -
+2024-04-24 17:26:49,534 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:26:49] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2024-04-24 17:26:49,537 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:26:49] "[36mGET /static/img/user.png HTTP/1.1[0m" 304 -
+2024-04-24 17:26:49,587 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:26:49] "[33mGET /static/styles/background.png HTTP/1.1[0m" 404 -
+2024-04-24 17:27:28,553 DEBUG root User load: 1
+2024-04-24 17:27:28,559 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:27:28] "GET / HTTP/1.1" 200 -
+2024-04-24 17:27:28,667 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:27:28] "GET /static/styles/index.css HTTP/1.1" 200 -
+2024-04-24 17:27:28,679 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:27:28] "[36mGET /static/img/user.png HTTP/1.1[0m" 304 -
+2024-04-24 17:27:28,723 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:27:28] "[36mGET /static/styles/back.png HTTP/1.1[0m" 304 -
+2024-04-24 17:29:07,224 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-04-24 17:29:07,224 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-24 17:29:07,231 INFO werkzeug  * Restarting with stat
+2024-04-24 17:29:08,063 WARNING werkzeug  * Debugger is active!
+2024-04-24 17:29:08,082 INFO werkzeug  * Debugger PIN: 312-716-250
+2024-04-24 17:29:12,739 DEBUG root User load: 1
+2024-04-24 17:29:12,759 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:29:12] "GET / HTTP/1.1" 200 -
+2024-04-24 17:29:13,085 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:29:13] "[36mGET /static/img/user.png HTTP/1.1[0m" 304 -
+2024-04-24 17:29:13,087 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:29:13] "GET /static/styles/index.css HTTP/1.1" 200 -
+2024-04-24 17:29:13,518 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:29:13] "[36mGET /static/styles/back.png HTTP/1.1[0m" 304 -
+2024-04-24 17:29:38,953 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:29:38] "POST /downloadgame HTTP/1.1" 200 -
+2024-04-24 17:37:24,628 DEBUG root User load: 1
+2024-04-24 17:37:24,633 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:37:24] "GET / HTTP/1.1" 200 -
+2024-04-24 17:37:24,806 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:37:24] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2024-04-24 17:37:24,842 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:37:24] "[36mGET /static/img/user.png HTTP/1.1[0m" 304 -
+2024-04-24 17:37:25,038 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:37:25] "[36mGET /static/styles/back.png HTTP/1.1[0m" 304 -
+2024-04-24 17:37:48,600 DEBUG root User load: 1
+2024-04-24 17:37:48,608 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:37:48] "GET / HTTP/1.1" 200 -
+2024-04-24 17:37:48,724 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:37:48] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2024-04-24 17:37:48,743 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:37:48] "[36mGET /static/img/user.png HTTP/1.1[0m" 304 -
+2024-04-24 17:37:48,792 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:37:48] "[36mGET /static/styles/back.png HTTP/1.1[0m" 304 -
+2024-04-24 17:38:01,101 DEBUG root User load: 1
+2024-04-24 17:38:01,108 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:38:01] "GET / HTTP/1.1" 200 -
+2024-04-24 17:38:01,257 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:38:01] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2024-04-24 17:38:01,327 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:38:01] "[36mGET /static/img/user.png HTTP/1.1[0m" 304 -
+2024-04-24 17:38:01,470 INFO werkzeug 127.0.0.1 - - [24/Apr/2024 17:38:01] "[36mGET /static/styles/back.png HTTP/1.1[0m" 304 -

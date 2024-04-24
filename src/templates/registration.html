@@ -6,6 +6,7 @@
             <label for="nickname">Nickname</label>
             <input type="text" required id="nickname" name="nickname">
         </div>
+        <div>
             <label for="email">Email</label>
             <input type="email" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" required id="email" name="email">
         </div>
@@ -14,10 +15,17 @@
             <input type="password" required id="password" name="password">
         </div>
         <div>
+            <label for="file">Укажите аватар.</label>
+            <input type="file" id="file" name="file">
+        </div>
         <div>
-            {% if errors %}
-                <label for="reg">Произошла какая-то ошибка, мы уже работает над этим!</label>
-            {% endif %}
+            {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                  {% for message in messages %}
+                     {{ message }}
+                  {% endfor %}
+               {% endif %}
+            {% endwith %}
             <button type="submit" id="reg">Создать аккаунт!</button>
         </div>
     </form>

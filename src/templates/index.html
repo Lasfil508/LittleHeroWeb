@@ -2,8 +2,15 @@
 <html>
 <head>
     <title>{% block title %}Приложение Flask{% endblock %}</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/index.css') }}">
 </head>
 <body>
+<div class="sec">
+    <form action="{{ url_for('main_page') }}" method="get">
+        <div>
+            <button type="submit">LittleHero!</button>
+        </div>
+    </form></div>
     {% block body %}
         <p>Welcome to flask</p>
     {% endblock %}

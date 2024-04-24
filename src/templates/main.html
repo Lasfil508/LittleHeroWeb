@@ -1,36 +1,52 @@
 {% extends "index.html" %}
 {% block body %}
 <div>
+    <div class="sec">
     {% if user.is_authenticated %}
-        {{ user.get_nickname() }}
+        <div class="fir"><img src="{{ user.get_avatar() }}" width="25" height="25" alt="test">
+            <p>{{ user.get_nickname() }}</p></div>
     {% endif %}
     {% if not user.is_authenticated %}
-        <form action="{{ url_for('registration') }}" method="get">
+        <div class="fir"><form action="{{ url_for('registration') }}" method="get">
             <div>
                 <button type="submit">Регистрация</button>
             </div>
-        </form>
-        <form action="{{ url_for('login') }}" method="get">
+        </form></div>
+        <div class="fir"><form action="{{ url_for('login') }}" method="get">
             <div>
                 <button type="submit">Войти</button>
             </div>
-        </form>
+        </form></div>
     {% else %}
-        <form action="{{ url_for('profile') }}" method="get">
+        <div class="fir"><form action="{{ url_for('profile') }}" method="get">
             <div>
                 <button type="submit">Профиль</button>
             </div>
-        </form>
-        <form action="{{ url_for('logout') }}" method="get">
+        </form></div>
+        <div class="fir"><form action="{{ url_for('logout') }}" method="get">
             <div>
                 <button type="submit">Выйти</button>
             </div>
-        </form>
+        </form></div>
+        <div class="fir"><form action="{{ url_for('maps_library') }}" method="get">
+            <div>
+                <button type="submit">Библиотека карт</button>
+            </div>
+        </form></div>
     {% endif %}
-    <form action="{{ url_for('download') }}" method="post">
+    <div class="fir"><form action="{{ url_for('download_game') }}" method="post">
         <div>
             <button type="submit">Скчать Little Hero!</button>
         </div>
-    </form>
+    </form></div>
+    <div class="fir"><form action="{{ url_for('download_creater') }}" method="post">
+        <div>
+            <button type="submit">Скчать Map creator!</button>
+        </div>
+    </form></div>
+    <div class='fir'><a href="https://t.me/Liittle_Hero_Bot">
+            <input type="submit" value="Наш tg бот">
+        </a></div>
+    </div>
 </div>
 {% endblock %}

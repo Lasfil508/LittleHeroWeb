@@ -1,0 +1,32 @@
+{% extends "index.html" %}
+{% block body %}
+<div>
+    {% if user.is_authenticated %}
+        <p>{{ user.get_nickname() }}</p>
+    {% endif %}
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for message in messages %}
+                <p>{{ message }}</p>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+    <h2>Библиотека карт!</h2>
+    <div>
+    {% if map %}
+        <h2>Название карты: {{ map[1] }}</h2>
+        <p>Описание: {{ map[2] }}</p>
+        <p>Карта: {{ map[3] }}</p>
+        <p>Создатель: {{ creator[1] }}</p>
+        <p>Дата загрузки: {{ map[5] }}</p>
+        <form action="{{ url_for('download_creater') }}" method="post">
+        <div>
+            <button type="submit">Скчать Map creator!</button>
+        </div>
+    </form>
+    {% else %}
+        <p>Карта не найдена!</p>
+    {% endif %}
+    </div>
+</div>
+{% endblock %}

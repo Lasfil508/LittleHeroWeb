@@ -1,0 +1,22 @@
+{% extends "index.html" %}
+{% block body %}
+<div>
+    {% if user.is_authenticated %}
+        <p>{{ user.get_nickname() }}</p>
+    {% endif %}
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for message in messages %}
+                <p>{{ message }}</p>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+    <form action="{{ url_for('create_map') }}" method="post" enctype=multipart/form-data>
+        <div>
+            <label for="file">Выберите файл</label>
+            <input type="file" id="file" name="file">
+            <button type="submit">Отправить</button>
+        </div>
+    </form>
+</div>
+{% endblock %}
